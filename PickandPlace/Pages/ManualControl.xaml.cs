@@ -18,11 +18,12 @@ using System.Drawing;
 using System.Data;
 using Microsoft.Win32;
 using System.IO;
+using System.Threading;
 
 namespace PickandPlace.Pages
 {
     /// <summary>
-    /// Manual control for PNP machine axis drivers and usb controls
+    /// Interaction logic for BasicPage1.xaml
     /// </summary>
     public partial class ManualControl : UserControl
     {
@@ -35,6 +36,8 @@ namespace PickandPlace.Pages
     
        
             InitializeComponent();
+
+            
            
             App MyApplication = ((App)Application.Current);
             _kflop = MyApplication.GetKFlop();
@@ -264,6 +267,53 @@ namespace PickandPlace.Pages
         private void bt_ChipFeeder_Click(object sender, RoutedEventArgs e)
         {
             usbController.RunVibrationMotor();
+        }
+
+        private void bt_runto_Click(object sender, RoutedEventArgs e)
+        {
+            double newX = double.Parse(txt_goX.Text);
+            double newY = double.Parse(txt_goY.Text);
+            double newZ = double.Parse(txt_goZ.Text);
+            double newA = double.Parse(txt_goA.Text);
+            double newB = double.Parse(txt_goB.Text);
+            double newC = double.Parse(txt_goC.Text);
+            double newSpeed = double.Parse(txt_Speed.Text);
+
+
+            ThreadStart starter = () => RunToPoint(newX, newY, newZ, newA, newB, newC, newSpeed);
+            Thread runner = new Thread(starter);
+            runner.Start();
+        }
+
+        private void RunToPoint(double newX, double newY, double newZ, double newA,double newB,double newC,double newSpeed)
+        {
+            _kflop.MoveSingleFeed(newSpeed, newX, newY, newZ, newA, newB, newC);
+        }
+
+        private void mainframe_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+
+            int currentitem = dd_distance.SelectedIndex;
+            int maaxitems = dd_distance.Items.Count;
+            if (e.Delta > 0)
+            {
+                if (currentitem > 0)
+                {
+                    dd_distance.SelectedIndex = currentitem - 1;
+                }
+                else
+                {
+                    dd_distance.SelectedIndex = 0;
+                }
+            }
+            else
+            {
+                if (currentitem < maaxitems)
+                {
+                    dd_distance.SelectedIndex = currentitem + 1;
+                }
+            }
+
         }
 
       

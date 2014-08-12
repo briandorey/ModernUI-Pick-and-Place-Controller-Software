@@ -15,6 +15,7 @@ using FirstFloor.ModernUI.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data;
 using System.Threading;
+using Microsoft.Win32;
 
 namespace PickandPlace.Pages
 {
@@ -25,7 +26,7 @@ namespace PickandPlace.Pages
     {
         DataTable dtComponents = new DataTable();
         DataTable dtBoardInfo = new DataTable();
-        DataSet dsData = new DataSet();
+        public DataSet dsData = new DataSet();
         DataHelpers dh = new DataHelpers();
         private PCBBuilder builder = new PCBBuilder();
 
@@ -73,6 +74,7 @@ namespace PickandPlace.Pages
 
         private void bt_HomeAll_Click(object sender, RoutedEventArgs e)
         {
+            usbController.setResetFeeder();
             _kflop.HomeAll();
         }
 
@@ -183,13 +185,37 @@ namespace PickandPlace.Pages
         {
 
             dg.AutoGenerateColumns = false;
-            dh.SetupTextColumn(dg, "RefDes", "ComponentName", true);
-            dh.SetupTextColumn(dg, "PosX", "PlacementX", true);
-            dh.SetupTextColumn(dg, "PosY", "PlacementY", true);
-            dh.SetupTextColumn(dg, "Rotate", "PlacementRotate", true);
-            dh.SetupTextColumn(dg, "Nozzle", "PlacementNozzle", true);
+            dh.SetupTextColumn(dg, "RefDes", "ComponentName", false);
+            dh.SetupTextColumn(dg, "PosX", "PlacementX", false);
+            dh.SetupTextColumn(dg, "PosY", "PlacementY", false);
+            dh.SetupTextColumn(dg, "Rotate", "PlacementRotate", false);
+            dh.SetupTextColumn(dg, "Nozzle", "PlacementNozzle", false);
             dh.SetupCheckBoxColumn(dg, "Pick", "Pick", false);
         }
-      
+
+        private void bt_Save_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Xml file (*.xml)|*.xml";
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                System.IO.StreamWriter xmlSW = new System.IO.StreamWriter(saveFileDialog.FileName);
+                dsData.WriteXml(xmlSW, XmlWriteMode.WriteSchema);
+                xmlSW.Close();
+                MessageBox.Show("File Saved");
+            }
+        }
+
+        public void SetlblActive(string val)
+        {
+            lblActive.Content = val;
+        }
+
+        private void bt_ViewPCB_Click(object sender, RoutedEventArgs e)
+        {
+            pcbvisualiser pcb = new pcbvisualiser();
+            pcb.LoadDataSet(dsData);
+            pcb.Show();
+        }
     }
 }

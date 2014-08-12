@@ -11,7 +11,6 @@ namespace PickandPlace
 {
     public class DataHelpers
     {
-        // helper functions for gridview setup
 
         public void SetupTextColumn(DataGrid dg, string header, string binding, bool ReadOnly)
         {
@@ -40,11 +39,11 @@ namespace PickandPlace
             dg.Columns.Add(dgvc);
         }
 
-        // defaults for nozzle spacings to camera
-        public double Nozzle1Xoffset = -20.57;
-        public double Nozzle1Yoffset = 7.16;
+
+        public double Nozzle1Xoffset = -20.37;
+        public double Nozzle1Yoffset = 7.0;//7.16
 
         public double Nozzle2Xoffset = 11.74;
-        public double Nozzle2Yoffset = 7.22;
+        public double Nozzle2Yoffset = 7.0; //7.22
     }
 }

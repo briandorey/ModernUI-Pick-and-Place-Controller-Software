@@ -4,14 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
-using usbGenericHidCommunications;
+    using usbGenericHidCommunications;
 using System.Threading;
 namespace PickandPlace
 {
     
 
     /// <summary>
-    /// This class communicates with the USB control board to provide control of hardware
+    /// This class performs several different tests against the 
+    /// reference hardware/firmware to confirm that the USB
+    /// communication library is functioning correctly.
+    /// 
+    /// It also serves as a demonstration of how to use the class
+    /// library to perform different types of read and write
+    /// operations.
     /// </summary>
     public class usbDevice : usbGenericHidCommunication
     {
@@ -200,7 +206,8 @@ namespace PickandPlace
         private void RunVibrationMotorSub()
         {
             setVibrationMotor(true);
-            Thread.Sleep(800);
+            Thread.Sleep(600);
+            Thread.Sleep(600);
             setVibrationMotor(false);
         }
         public bool setVibrationMotor(bool inval)
@@ -224,7 +231,21 @@ namespace PickandPlace
             return success;
         }
 
-       
+        public bool setVibrationMotorSpeed(byte inval)
+        {
+            /*
+            Byte[] outputBuffer = new Byte[65];
+
+            outputBuffer[0] = 0;
+            outputBuffer[1] = 0x03;
+            outputBuffer[2] = 0x07;
+            outputBuffer[3] = inval;
+
+            bool success;
+            success = writeRawReportToDevice(outputBuffer);
+             */ 
+            return true;
+        }
 
         public bool getVac1Status()
         {
@@ -458,10 +479,9 @@ namespace PickandPlace
         {
             setBaseCameraPWM(BaseCameraPWM);
             setHeadCameraPWM(HeadCameraPWM);
-            
+            setVibrationMotorSpeed(250);
             setVAC1(false);
             setVAC2(false);
-
             if (fulltest)
             {
                 setResetFeeder();
@@ -472,21 +492,22 @@ namespace PickandPlace
                 setVibrationMotor(true);
                 Thread.Sleep(500);
                 setVibrationMotor(false);
-                Thread.Sleep(500);
+                setVibrationMotorSpeed(250);
+                Thread.Sleep(100);
                 setHeadCameraLED(true);
-                Thread.Sleep(500);
+                Thread.Sleep(100);
                 setHeadCameraLED(false);
-                Thread.Sleep(500);
+                Thread.Sleep(100);
                 setBaseCameraLED(true);
-                Thread.Sleep(500);
+                Thread.Sleep(100);
                 setBaseCameraLED(false);
-                Thread.Sleep(500);
+                Thread.Sleep(100);
                 setVAC1(true);
-                Thread.Sleep(500);
+                Thread.Sleep(100);
                 setVAC1(false);
-                Thread.Sleep(500);
+                Thread.Sleep(100);
                 setVAC2(true);
-                Thread.Sleep(500);
+                Thread.Sleep(100);
                 setVAC2(false);
             }
 

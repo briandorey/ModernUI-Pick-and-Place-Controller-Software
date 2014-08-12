@@ -16,19 +16,15 @@ namespace PickandPlace
         public usbDevice usbController;
         public kflop _kflop = new kflop();
 
-        bool testmode = false; // set to true to enable usb and kflop connection, used test the application without the control boards connected
-
         void App_Startup(object sender, StartupEventArgs e)
         {
-            if (testmode)
-            {
-                _kflop.initdevice();
-                usbController = new usbDevice(0x04D8, 0x0042);
-                usbController.usbEvent += new usbDevice.usbEventsHandler(usbEvent_receiver);
-                usbController.findTargetDevice();
-                // initialize the usb controller without running the full test and set the LED PWM on both drivers to 250
-                usbController.RunBoardInit(false, 250, 250);
-            }
+            /*
+            _kflop.initdevice();
+            usbController = new usbDevice(0x04D8, 0x0042);
+            usbController.usbEvent += new usbDevice.usbEventsHandler(usbEvent_receiver);
+            usbController.findTargetDevice();
+            usbController.RunBoardInit(false, 250, 250);
+            */
            
         }
 
@@ -58,6 +54,8 @@ namespace PickandPlace
             else
             {
                 // Device is currently unattached
+
+                // Update the status label
 
             }
         }

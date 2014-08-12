@@ -21,6 +21,7 @@ using System.Drawing;
 using Microsoft.Win32;
 using System.IO;
 using System.Data;
+using System.Threading;
 
 namespace PickandPlace.Pages
 {
@@ -162,8 +163,9 @@ namespace PickandPlace.Pages
 
         private void bt_HomeAll_Click(object sender, RoutedEventArgs e)
         {
-            _kflop.HomeAll();
             usbController.setResetFeeder();
+            _kflop.HomeAll();
+            
         }
 
         private void bt_GetDRO_Click(object sender, RoutedEventArgs e)
@@ -214,6 +216,8 @@ namespace PickandPlace.Pages
         private void bt_addrow_Click(object sender, RoutedEventArgs e)
         {
             // check for valid data and add row to dataset table
+            UpdateDRO();
+            Thread.Sleep(100);
             if (txt_ComName.Text.Length > 0)
             {
                 Int32 ComponentCode = Int32.Parse(dd_ComponentSelect.SelectedValue.ToString());
@@ -265,6 +269,29 @@ namespace PickandPlace.Pages
         private void bt_eStop_Click(object sender, RoutedEventArgs e)
         {
             _kflop.EStop();
+        }
+
+        private void mainframe_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+           
+            int currentitem = dd_distance.SelectedIndex;
+            int maaxitems = dd_distance.Items.Count;
+            if (e.Delta > 0) {
+                if (currentitem > 0)
+                {
+                    dd_distance.SelectedIndex = currentitem - 1;
+                }
+                else
+                {
+                    dd_distance.SelectedIndex = 0;
+                }
+            } else {
+                if (currentitem < maaxitems)
+                {
+                    dd_distance.SelectedIndex = currentitem + 1;
+                }
+            }
+            
         }
       
     }

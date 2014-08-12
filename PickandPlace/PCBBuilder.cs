@@ -13,7 +13,7 @@ namespace PickandPlace
 {
     public class PCBBuilder
     {
-        DataSet dsData = new DataSet();
+        public DataSet dsData = new DataSet();
 
         private Components comp = new Components();
         private usbDevice usbController;
@@ -51,11 +51,9 @@ namespace PickandPlace
             // setup worker methods
             backgroundWorkerBuildPCB.DoWork += worker_DoWork;
             backgroundWorkerBuildPCB.RunWorkerCompleted += worker_RunWorkerCompleted;
+            backgroundWorkerBuildPCB.WorkerSupportsCancellation = true;
 
-            Nozzle1Xoffset = dh.Nozzle1Xoffset;
-            Nozzle1Yoffset = dh.Nozzle1Yoffset;
-            Nozzle2Xoffset = dh.Nozzle2Xoffset;
-            Nozzle2Yoffset = dh.Nozzle2Yoffset;
+            
         }
         
 
@@ -68,6 +66,12 @@ namespace PickandPlace
             dv.RowFilter = "Pick = 1";
             int currentrow = 0;
             int totalrows = dv.Count;
+
+            Nozzle1Xoffset = dh.Nozzle1Xoffset;
+            Nozzle1Yoffset = dh.Nozzle1Yoffset;
+            Nozzle2Xoffset = dh.Nozzle2Xoffset;
+            Nozzle2Yoffset = dh.Nozzle2Yoffset;
+
             if (totalrows > 0)
             {
 
@@ -141,15 +145,15 @@ namespace PickandPlace
 
                     if (currentrow == 0)
                     {
-                        SetFeederOutputs(Int32.Parse(dv[currentrow]["FeederNumber"].ToString())); // send feeder to position
+                        SetFeederOutputs(comp.GetFeederID(dv[currentrow]["ComponentCode"].ToString())); // send feeder to position
                     }
                    
 
 
                     kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, ClearHeight, 0, 0);
 
-                   
-                    if (dv[currentrow]["TapeFeeder"].ToString().Equals("True"))
+
+                    if (comp.GetComponentTapeFeeder(dv[currentrow]["ComponentCode"].ToString()))
                     {
 
                         while (!usbController.getFeederReadyStatus())
@@ -162,7 +166,7 @@ namespace PickandPlace
                         Thread.Sleep(50);
                         // go down and turn on suction
                         usbController.setVAC1(true);
-                        Thread.Sleep(50);
+                        Thread.Sleep(100);
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, ClearHeight, 0, 0);
 
                     }
@@ -172,31 +176,32 @@ namespace PickandPlace
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, feederPosZ, 0, 0);
                         Thread.Sleep(50);
                         usbController.setVAC2(true);
-                        //Thread.Sleep(500);
-                        Thread.Sleep(50);
+                        
+                        Thread.Sleep(200);
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, ClearHeight, 0, 0);
                     }
                     // send picker to pick next item
                     if (currentrow >= 0 && (currentrow + 1) < totalrows)
                     {
                         Thread.Sleep(100);
-                        SetFeederOutputs(Int32.Parse(dv[currentrow + 1]["FeederNumber"].ToString())); // send feeder to position
+                       
+                        SetFeederOutputs(comp.GetFeederID(dv[currentrow + 1]["ComponentCode"].ToString())); // send feeder to position
                     }
 
                     // rotate head
 
 
                     //SetResultsLabelText("Placing Component");
-                    if (dv[currentrow]["TapeFeeder"].ToString().Equals("True"))
+                    if (comp.GetComponentTapeFeeder(dv[currentrow]["ComponentCode"].ToString()))
                     {
 
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, 0, ComponentRotation);
 
                        
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, PlacementHeight, ClearHeight, 0, ComponentRotation);
-                        Thread.Sleep(100);
+                        Thread.Sleep(300);
                         usbController.setVAC1(false);
-                        Thread.Sleep(200);
+                        Thread.Sleep(300);
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, 0, ComponentRotation);
 
                     }
@@ -205,13 +210,13 @@ namespace PickandPlace
                         // use picker 2  CalcXwithNeedleSpacing
 
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, ComponentRotation, 0);
-
+                        Thread.Sleep(200);
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, PlacementHeight, ComponentRotation, 0);
                         // go down and turn off suction
-                        Thread.Sleep(150);
+                        Thread.Sleep(300);
                         
                         usbController.setVAC2(false);
-                        Thread.Sleep(50);
+                        Thread.Sleep(300);
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, ComponentRotation, 0);
 
                     }
@@ -229,7 +234,7 @@ namespace PickandPlace
             }
             backgroundWorkerBuildPCB.CancelAsync();
 
-            worker.ReportProgress(100);
+         
           
             dv.Dispose();
             dtComponents.Dispose();
@@ -245,22 +250,22 @@ namespace PickandPlace
         {
             if (nozzle.Equals(1))
             {
-                return val + Nozzle1Xoffset;
+                return val - Nozzle1Xoffset;
             }
             else
             {
-                return val + Nozzle2Xoffset;
+                return val - Nozzle2Xoffset;
             }
         }
         public double CalcYLocation(double val, int nozzle)
         {
             if (nozzle.Equals(1))
             {
-                return val + Nozzle1Yoffset;
+                return val - Nozzle1Yoffset;
             }
             else
             {
-                return val + Nozzle2Yoffset;
+                return val - Nozzle2Yoffset;
             }
         }
 

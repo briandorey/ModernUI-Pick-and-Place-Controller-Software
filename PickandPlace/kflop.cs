@@ -52,13 +52,13 @@ namespace PickandPlace
             _XAxis.Enable();
             _XAxis.CPU = 1000;
 
-            _XAxis.Velocity = 10000;
-            _XAxis.Acceleration = 10000 ;
+           // _XAxis.Velocity = 10000;
+           // _XAxis.Acceleration = 10000 ;
 
             _YAxis.Enable();
             _YAxis.CPU = 1000;
 
-
+            
             _ZAxis.Enable();
             _ZAxis.CPU = 1000;
 
@@ -103,8 +103,8 @@ namespace PickandPlace
 
             _XAxis.HomingParams.SourceType = HOMING_ROUTINE_SOURCE_TYPE.AUTO;
             _XAxis.HomingParams.DefaultThread = 3;
-            _XAxis.HomingParams.HomeFastVel = 150;
-            _XAxis.HomingParams.HomeSlowVel = 50;
+            _XAxis.HomingParams.HomeFastVel = 250;
+            _XAxis.HomingParams.HomeSlowVel = 80;
             _XAxis.HomingParams.HomeLimitBit = 19;
             _XAxis.HomingParams.HomeLimitState = true;
             _XAxis.HomingParams.RepeatHomeAtSlowerRate = true;
@@ -140,6 +140,8 @@ namespace PickandPlace
             _Controller.CoordMotion.MotionParams.MaxAccelZ = 2e+006; ;
             // _Controller.CoordMotion.MotionParams.MaxAccelZ = 400000;
             _Controller.CoordMotion.MotionParams.MaxVelZ = 20000;
+            
+
             // _ZAxis.TuningParams.Jerk = 5e+006;
 
             /*
@@ -233,21 +235,31 @@ namespace PickandPlace
 
            // }
             _AAxis.StartDoHome();
-           // while (!_AAxis.MotionComplete())
-          //  {
-          //      Thread.Sleep(50);
+            while (!_AAxis.MotionComplete())
+            {
+               Thread.Sleep(50);
 
-          //  }
+           }
 
 
             _XAxis.StartDoHome();
             _YAxis.StartDoHome();
 
+            while (!_XAxis.MotionComplete())
+            {
+                Thread.Sleep(50);
+
+            }
+
+            while (!_YAxis.MotionComplete())
+            {
+                Thread.Sleep(50);
+
+            }
+
 
             setAlltoZero();
-
-
-            // initdevice();
+           
 
         }
 

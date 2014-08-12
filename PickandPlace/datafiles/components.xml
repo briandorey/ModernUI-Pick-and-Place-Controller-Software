@@ -70,9 +70,9 @@
     <ComponentValue>100nF</ComponentValue>
     <Package>0805</Package>
     <PlacementHeight>34.733</PlacementHeight>
-    <FeederHeight>32.145</FeederHeight>
-    <FeederX>70.129</FeederX>
-    <FeederY>16.005</FeederY>
+    <FeederHeight>31.7</FeederHeight>
+    <FeederX>70.2</FeederX>
+    <FeederY>15.8</FeederY>
     <PickerNozzle>1</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>true</TapeFeeder>
@@ -177,8 +177,8 @@
     <Package>SOIC16</Package>
     <PlacementHeight>34.154</PlacementHeight>
     <FeederHeight>25.866</FeederHeight>
-    <FeederX>84.489</FeederX>
-    <FeederY>392.879</FeederY>
+    <FeederX>84.8596</FeederX>
+    <FeederY>394.193</FeederY>
     <PickerNozzle>2</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>false</TapeFeeder>
