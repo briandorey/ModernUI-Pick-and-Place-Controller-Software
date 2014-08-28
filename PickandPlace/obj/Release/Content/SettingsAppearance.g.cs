@@ -9,15 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Emgu.CV.UI;
-using FirstFloor.ModernUI.Presentation;
-using FirstFloor.ModernUI.Windows;
-using FirstFloor.ModernUI.Windows.Controls;
-using FirstFloor.ModernUI.Windows.Converters;
-using FirstFloor.ModernUI.Windows.Navigation;
-using Microsoft.Expression.Controls;
-using Microsoft.Expression.Media;
-using Microsoft.Expression.Shapes;
 using System;
 using System.Diagnostics;
 using System.Windows;

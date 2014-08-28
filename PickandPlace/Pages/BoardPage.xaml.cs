@@ -29,7 +29,7 @@ namespace PickandPlace.Pages
         public DataSet dsData = new DataSet();
         DataHelpers dh = new DataHelpers();
         private PCBBuilder builder = new PCBBuilder();
-
+        public App MyApplication = ((App)Application.Current);
         usbDevice usbController;
         kflop _kflop;
         
@@ -168,7 +168,15 @@ namespace PickandPlace.Pages
 
         private void bt_Start_Click(object sender, RoutedEventArgs e)
         {
-            builder.ActivateBuildProcess();
+            if (MyApplication.checkHome())
+            {
+                builder.ActivateBuildProcess();
+            }
+            else
+            {
+                MessageBox.Show("Home Error");
+            }
+            MyApplication.setHomed(false);
         }
 
         private void _dgComponents_SelectionChanged(object sender, SelectionChangedEventArgs e)

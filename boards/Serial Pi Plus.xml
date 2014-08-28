@@ -1,0 +1,89 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BoardInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BoardName" type="xs:string" minOccurs="0" />
+                <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Components">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ComponentCode" type="xs:int" minOccurs="0" />
+                <xs:element name="ComponentName" type="xs:string" minOccurs="0" />
+                <xs:element name="PlacementX" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementY" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementRotate" type="xs:int" minOccurs="0" />
+                <xs:element name="PlacementNozzle" type="xs:int" minOccurs="0" />
+                <xs:element name="Pick" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BoardInfo>
+    <BoardName>Serial Pi Plus</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+  </BoardInfo>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c1 - 100nF</ComponentName>
+    <PlacementX>45.9082064248018</PlacementX>
+    <PlacementY>91.0588387767301</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c2 - 100nF</ComponentName>
+    <PlacementX>51.3803311654135</PlacementX>
+    <PlacementY>91.0588387767301</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c3 - 100nF</ComponentName>
+    <PlacementX>56.0893713801955</PlacementX>
+    <PlacementY>91.9563724241034</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c4 - 100nF</ComponentName>
+    <PlacementX>49.821502548274</PlacementX>
+    <PlacementY>106.504191515043</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c5 - 100nF</ComponentName>
+    <PlacementX>43.1946956800118</PlacementX>
+    <PlacementY>99.3081192394862</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>103</ComponentCode>
+    <ComponentName>u1 - MAX3232EID</ComponentName>
+    <PlacementX>49.7577064148051</PlacementX>
+    <PlacementY>99.3</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+</NewDataSet>

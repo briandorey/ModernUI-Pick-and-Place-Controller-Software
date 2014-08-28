@@ -1,0 +1,107 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BoardInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BoardName" type="xs:string" minOccurs="0" />
+                <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Components">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ComponentCode" type="xs:int" minOccurs="0" />
+                <xs:element name="ComponentName" type="xs:string" minOccurs="0" />
+                <xs:element name="PlacementX" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementY" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementRotate" type="xs:int" minOccurs="0" />
+                <xs:element name="PlacementNozzle" type="xs:int" minOccurs="0" />
+                <xs:element name="Pick" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BoardInfo>
+    <BoardName>Delta Sigma Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+  </BoardInfo>
+  <Components>
+    <ComponentCode>7</ComponentCode>
+    <ComponentName>u0 - Dual Mosfet</ComponentName>
+    <PlacementX>48.728411861999</PlacementX>
+    <PlacementY>91.651876399609</PlacementY>
+    <PlacementRotate>-90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c1 - 100nF</ComponentName>
+    <PlacementX>24.7487677446521</PlacementX>
+    <PlacementY>107.32913025938</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c2 - 100nF</ComponentName>
+    <PlacementX>34.041303845348</PlacementX>
+    <PlacementY>107.046425644616</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c3 - 10uF Tantalum</ComponentName>
+    <PlacementX>31.9833961042726</PlacementX>
+    <PlacementY>107.349019173388</PlacementY>
+    <PlacementRotate>-90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c4 - 10uF Tantalum</ComponentName>
+    <PlacementX>26.9402536792884</PlacementX>
+    <PlacementY>107.349019173388</PlacementY>
+    <PlacementRotate>-90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r1 - 10Kx4</ComponentName>
+    <PlacementX>48.1088816934011</PlacementX>
+    <PlacementY>95.621566131074</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>100</ComponentCode>
+    <ComponentName>u1 - MCP3424</ComponentName>
+    <PlacementX>36.5558133337908</PlacementX>
+    <PlacementY>99.0061091869243</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>100</ComponentCode>
+    <ComponentName>u2 - MCP3424</ComponentName>
+    <PlacementX>25.7145299368261</PlacementX>
+    <PlacementY>98.9738760616563</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+</NewDataSet>

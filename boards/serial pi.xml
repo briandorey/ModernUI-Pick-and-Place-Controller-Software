@@ -1,0 +1,359 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BoardInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BoardName" type="xs:string" minOccurs="0" />
+                <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Components">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ComponentCode" type="xs:int" minOccurs="0" />
+                <xs:element name="ComponentName" type="xs:string" minOccurs="0" />
+                <xs:element name="PlacementX" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementY" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementRotate" type="xs:int" minOccurs="0" />
+                <xs:element name="PlacementNozzle" type="xs:int" minOccurs="0" />
+                <xs:element name="Pick" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BoardInfo>
+    <BoardName>Serial Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+  </BoardInfo>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C1 - 100nF</ComponentName>
+    <PlacementX>30.6395304960784</PlacementX>
+    <PlacementY>85.3122626958975</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C2 - 100nF</ComponentName>
+    <PlacementX>36.09637578522</PlacementX>
+    <PlacementY>91.9794609389271</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C3 - 100nF</ComponentName>
+    <PlacementX>35.0342111348397</PlacementX>
+    <PlacementY>98.8538721303487</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C4 - 100nF</ComponentName>
+    <PlacementX>30.7002286162842</PlacementX>
+    <PlacementY>98.8538721303487</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C5 - 100nF</ComponentName>
+    <PlacementX>25.6953638122176</PlacementX>
+    <PlacementY>96.1382259085257</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C6 - 100nF</ComponentName>
+    <PlacementX>30.8351713813494</PlacementX>
+    <PlacementY>120.040742150555</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C7 - 100nF</ComponentName>
+    <PlacementX>36.4061669487237</PlacementX>
+    <PlacementY>126.744713398077</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C8 - 100nF</ComponentName>
+    <PlacementX>35.1220550985697</PlacementX>
+    <PlacementY>133.750305413019</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C9 - 100nF</ComponentName>
+    <PlacementX>30.8952394218512</PlacementX>
+    <PlacementY>133.750305413019</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C10 - 100nF</ComponentName>
+    <PlacementX>25.9194813789342</PlacementX>
+    <PlacementY>131.080771369279</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C11 - 100nF</ComponentName>
+    <PlacementX>31.0117178728068</PlacementX>
+    <PlacementY>154.998658417325</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C12 - 100nF</ComponentName>
+    <PlacementX>36.5866514646377</PlacementX>
+    <PlacementY>161.724810203922</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C13 - 100nF</ComponentName>
+    <PlacementX>35.3459104152291</PlacementX>
+    <PlacementY>168.632124694802</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C14 - 100nF</ComponentName>
+    <PlacementX>31.0231118958818</PlacementX>
+    <PlacementY>168.632124694802</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C15 - 100nF</ComponentName>
+    <PlacementX>26.0673936691367</PlacementX>
+    <PlacementY>165.869760977986</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C16 - 100nF</ComponentName>
+    <PlacementX>71.4643916644651</PlacementX>
+    <PlacementY>84.7687528794574</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C17 - 100nF</ComponentName>
+    <PlacementX>77.0395877921839</PlacementX>
+    <PlacementY>91.5463566039947</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C18 - 100nF</ComponentName>
+    <PlacementX>75.8727241302559</PlacementX>
+    <PlacementY>98.4858826033392</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C19 - 100nF</ComponentName>
+    <PlacementX>71.5950816501481</PlacementX>
+    <PlacementY>98.56463865649</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C20 - 100nF</ComponentName>
+    <PlacementX>66.5600778170477</PlacementX>
+    <PlacementY>95.9189930143323</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C21 - 100nF</ComponentName>
+    <PlacementX>71.64842879985</PlacementX>
+    <PlacementY>119.865892036372</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C22 - 100nF</ComponentName>
+    <PlacementX>77.2304508396862</PlacementX>
+    <PlacementY>126.533911783204</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C23 - 100nF</ComponentName>
+    <PlacementX>75.9858767784692</PlacementX>
+    <PlacementY>133.550658924027</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C24 - 100nF</ComponentName>
+    <PlacementX>71.6920621340854</PlacementX>
+    <PlacementY>133.550658924027</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C25 - 100nF</ComponentName>
+    <PlacementX>66.7117181116613</PlacementX>
+    <PlacementY>130.799212530045</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C26 - 100nF</ComponentName>
+    <PlacementX>71.8063174261331</PlacementX>
+    <PlacementY>154.828261704102</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C27 - 100nF</ComponentName>
+    <PlacementX>77.4211563606817</PlacementX>
+    <PlacementY>161.455595506335</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C28 - 100nF</ComponentName>
+    <PlacementX>76.2092941761557</PlacementX>
+    <PlacementY>168.537154794081</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C29 - 100nF</ComponentName>
+    <PlacementX>71.9299714726405</PlacementX>
+    <PlacementY>168.537154794081</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C30 - 100nF</ComponentName>
+    <PlacementX>66.8751199830783</PlacementX>
+    <PlacementY>165.726538674731</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>103</ComponentCode>
+    <ComponentName>U1 - MAX3232EID</ComponentName>
+    <PlacementX>30.7549059953918</PlacementX>
+    <PlacementY>91.7091868621652</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>103</ComponentCode>
+    <ComponentName>U2 - MAX3232EID</ComponentName>
+    <PlacementX>30.7549059953918</PlacementX>
+    <PlacementY>126.858080613073</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>103</ComponentCode>
+    <ComponentName>U3 - MAX3232EID</ComponentName>
+    <PlacementX>30.9822089143642</PlacementX>
+    <PlacementY>161.864854521604</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>103</ComponentCode>
+    <ComponentName>U4 - MAX3232EID</ComponentName>
+    <PlacementX>71.5877831906559</PlacementX>
+    <PlacementY>91.7044091088168</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>103</ComponentCode>
+    <ComponentName>U5 - MAX3232EID</ComponentName>
+    <PlacementX>71.7045588184271</PlacementX>
+    <PlacementY>126.734120163358</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>103</ComponentCode>
+    <ComponentName>U6 - MAX3232EID</ComponentName>
+    <PlacementX>71.7045588184271</PlacementX>
+    <PlacementY>161.634271897643</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+</NewDataSet>

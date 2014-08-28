@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\brian\Desktop\PickandPlace\PickandPlace\obj\Debug\
+C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\obj\Debug\
 PickandPlace
 none
 false
 DEBUG;TRACE
-C:\Users\brian\Desktop\PickandPlace\PickandPlace\App.xaml
+C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\App.xaml
 121976238904
 16-769774087
 261365107982
-22933252867
+221554252187
 CameraWindow.xaml;Content\SettingsAppearance.xaml;Content\SettingsComponents.xaml;MainWindow.xaml;Content\About.xaml;Pages\ComponentFeeders.xaml;Pages\ManualControl.xaml;Pages\BoardDesigner.xaml;Pages\BoardPage.xaml;Pages\Home.xaml;Pages\Settings.xaml;pcbvisualiser.xaml;
 
 False

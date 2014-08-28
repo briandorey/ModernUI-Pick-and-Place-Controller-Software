@@ -1,0 +1,125 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BoardInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BoardName" type="xs:string" minOccurs="0" />
+                <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Components">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ComponentCode" type="xs:int" minOccurs="0" />
+                <xs:element name="ComponentName" type="xs:string" minOccurs="0" />
+                <xs:element name="PlacementX" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementY" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementRotate" type="xs:int" minOccurs="0" />
+                <xs:element name="PlacementNozzle" type="xs:int" minOccurs="0" />
+                <xs:element name="Pick" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BoardInfo>
+    <BoardName>Servo Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+  </BoardInfo>
+  <Components>
+    <ComponentCode>7</ComponentCode>
+    <ComponentName>u1 - Dual Mosfet</ComponentName>
+    <PlacementX>57.2120242038726</PlacementX>
+    <PlacementY>97.6</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c1 - 100nF</ComponentName>
+    <PlacementX>33.2672973587174</PlacementX>
+    <PlacementY>104.5</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r1 - 10Kx4</ComponentName>
+    <PlacementX>56.7961162375887</PlacementX>
+    <PlacementY>102.6</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r2 - 10Kx4</ComponentName>
+    <PlacementX>50.7980810177243</PlacementX>
+    <PlacementY>104.6</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r3 - 10Kx4</ComponentName>
+    <PlacementX>47.3939457818856</PlacementX>
+    <PlacementY>104.6</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r4 - 220x4</ComponentName>
+    <PlacementX>47.3332476586052</PlacementX>
+    <PlacementY>96.6</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r5 - 220x4</ComponentName>
+    <PlacementX>47.3332476586052</PlacementX>
+    <PlacementY>100.6</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r6 - 220x4</ComponentName>
+    <PlacementX>32.9156583385893</PlacementX>
+    <PlacementY>100.6</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r7 - 220x4</ComponentName>
+    <PlacementX>32.9156583385893</PlacementX>
+    <PlacementY>96.6</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>107</ComponentCode>
+    <ComponentName>u2 - PCA9685PW</ComponentName>
+    <PlacementX>40.7215097822954</PlacementX>
+    <PlacementY>99.8997732813379</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+</NewDataSet>
