@@ -9,7 +9,7 @@
              mc:Ignorable="d" 
               xmlns:mz="clr-namespace:PickandPlace.ImageButtonBasic"
             xmlns:my="clr-namespace:PickandPlace.ImageButton"
-             d:DesignHeight="600" d:DesignWidth="800" PreviewMouseWheel="mainframe_PreviewMouseWheel">
+             d:DesignHeight="600" d:DesignWidth="800">
     <DockPanel LastChildFill="False">
         <StackPanel    DockPanel.Dock="Top">
             

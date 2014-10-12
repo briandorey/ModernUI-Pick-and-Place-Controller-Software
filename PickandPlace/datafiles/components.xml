@@ -19,8 +19,8 @@
     <Package>0805</Package>
     <PlacementHeight>35.011</PlacementHeight>
     <FeederHeight>32.424</FeederHeight>
-    <FeederX>110.18</FeederX>
-    <FeederY>16.02</FeederY>
+    <FeederX>110.223</FeederX>
+    <FeederY>16.068</FeederY>
     <PickerNozzle>1</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>true</TapeFeeder>
@@ -32,8 +32,8 @@
     <Package>0805</Package>
     <PlacementHeight>35.072</PlacementHeight>
     <FeederHeight>32.601</FeederHeight>
-    <FeederX>90.16</FeederX>
-    <FeederY>15.74</FeederY>
+    <FeederX>90.258</FeederX>
+    <FeederY>15.886</FeederY>
     <PickerNozzle>1</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>true</TapeFeeder>
@@ -58,8 +58,8 @@
     <Package>1206</Package>
     <PlacementHeight>35.066</PlacementHeight>
     <FeederHeight>32.548</FeederHeight>
-    <FeederX>150.08</FeederX>
-    <FeederY>15.74</FeederY>
+    <FeederX>150.053</FeederX>
+    <FeederY>15.848</FeederY>
     <PickerNozzle>1</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>true</TapeFeeder>
@@ -84,12 +84,12 @@
     <Package>0805</Package>
     <PlacementHeight>33.912</PlacementHeight>
     <FeederHeight>32.385</FeederHeight>
-    <FeederX>50.263</FeederX>
+    <FeederX>50.463</FeederX>
     <FeederY>15.517</FeederY>
     <PickerNozzle>1</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>true</TapeFeeder>
-    <FeederID>2</FeederID>
+    <FeederID>3</FeederID>
   </Component>
   <Component>
     <ComponentCode>7</ComponentCode>
@@ -135,9 +135,9 @@
     <ComponentValue>220x4</ComponentValue>
     <Package>1206</Package>
     <PlacementHeight>35.250</PlacementHeight>
-    <FeederHeight>32.842</FeederHeight>
-    <FeederX>229.27</FeederX>
-    <FeederY>15.43</FeederY>
+    <FeederHeight>32.642</FeederHeight>
+    <FeederX>229.229</FeederX>
+    <FeederY>15.449</FeederY>
     <PickerNozzle>1</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>true</TapeFeeder>
@@ -189,10 +189,10 @@
     <ComponentValue>MCP3424</ComponentValue>
     <Package>SOT14</Package>
     <PlacementHeight>34.222</PlacementHeight>
-    <FeederHeight>26.2</FeederHeight>
-    <FeederX>112.3</FeederX>
-    <FeederY>393.6</FeederY>
-    <PickerNozzle>2</PickerNozzle>
+    <FeederHeight>25.898</FeederHeight>
+    <FeederX>112.798</FeederX>
+    <FeederY>393.169</FeederY>
+    <PickerNozzle>1</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>false</TapeFeeder>
     <FeederID>23</FeederID>
@@ -201,10 +201,10 @@
     <ComponentCode>102</ComponentCode>
     <ComponentValue>DS1307Z</ComponentValue>
     <Package>SOT8</Package>
-    <PlacementHeight>34.4</PlacementHeight>
-    <FeederHeight>25.87</FeederHeight>
-    <FeederX>140.66</FeederX>
-    <FeederY>394.0</FeederY>
+    <PlacementHeight>34.187</PlacementHeight>
+    <FeederHeight>25.917</FeederHeight>
+    <FeederX>140.433</FeederX>
+    <FeederY>392.712</FeederY>
     <PickerNozzle>2</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>false</TapeFeeder>
@@ -241,13 +241,13 @@
     <ComponentCode>107</ComponentCode>
     <ComponentValue>PCA9685PW</ComponentValue>
     <Package>TSSOP28</Package>
-    <PlacementHeight>34.5</PlacementHeight>
-    <FeederHeight>26.5</FeederHeight>
-    <FeederX>84.5</FeederX>
-    <FeederY>394.0</FeederY>
+    <PlacementHeight>1.1</PlacementHeight>
+    <FeederHeight>9.7</FeederHeight>
+    <FeederX>0</FeederX>
+    <FeederY>0</FeederY>
     <PickerNozzle>2</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>false</TapeFeeder>
-    <FeederID>22</FeederID>
+    <FeederID>0</FeederID>
   </Component>
 </ComponentList>

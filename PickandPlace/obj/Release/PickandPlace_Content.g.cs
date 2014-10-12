@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("appbar.cog.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/down.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/right.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/up.png")]

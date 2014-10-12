@@ -13,7 +13,7 @@ namespace PickandPlace
 {
     public class PCBBuilder
     {
-        public DataSet dsData = new DataSet();
+        DataSet dsData = new DataSet();
 
         private Components comp = new Components();
         private usbDevice usbController;
@@ -174,19 +174,17 @@ namespace PickandPlace
                     {
                         // use picker 2
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, feederPosZ, 0, 0);
-                        Thread.Sleep(200);
-
+                        Thread.Sleep(50);
                         usbController.setVAC2(true);
-                        Thread.Sleep(300);
+                        
+                        Thread.Sleep(200);
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, ClearHeight, 0, 0);
                     }
                     // send picker to pick next item
                     if (currentrow >= 0 && (currentrow + 1) < totalrows)
                     {
                         Thread.Sleep(100);
-                        Thread.Sleep(100);
-
-
+                       
                         SetFeederOutputs(comp.GetFeederID(dv[currentrow + 1]["ComponentCode"].ToString())); // send feeder to position
                     }
 
@@ -203,7 +201,7 @@ namespace PickandPlace
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, PlacementHeight, ClearHeight, 0, ComponentRotation);
                         Thread.Sleep(300);
                         usbController.setVAC1(false);
-                        Thread.Sleep(100);
+                        Thread.Sleep(300);
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, 0, ComponentRotation);
 
                     }
@@ -218,7 +216,7 @@ namespace PickandPlace
                         Thread.Sleep(300);
                         
                         usbController.setVAC2(false);
-                        Thread.Sleep(100);
+                        Thread.Sleep(300);
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, ComponentRotation, 0);
 
                     }

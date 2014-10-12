@@ -36,8 +36,6 @@ namespace PickandPlace.Pages
     
        
             InitializeComponent();
-
-            
            
             App MyApplication = ((App)Application.Current);
             _kflop = MyApplication.GetKFlop();
@@ -288,32 +286,6 @@ namespace PickandPlace.Pages
         private void RunToPoint(double newX, double newY, double newZ, double newA,double newB,double newC,double newSpeed)
         {
             _kflop.MoveSingleFeed(newSpeed, newX, newY, newZ, newA, newB, newC);
-        }
-
-        private void mainframe_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
-        {
-
-            int currentitem = dd_distance.SelectedIndex;
-            int maaxitems = dd_distance.Items.Count;
-            if (e.Delta > 0)
-            {
-                if (currentitem > 0)
-                {
-                    dd_distance.SelectedIndex = currentitem - 1;
-                }
-                else
-                {
-                    dd_distance.SelectedIndex = 0;
-                }
-            }
-            else
-            {
-                if (currentitem < maaxitems)
-                {
-                    dd_distance.SelectedIndex = currentitem + 1;
-                }
-            }
-
         }
 
       

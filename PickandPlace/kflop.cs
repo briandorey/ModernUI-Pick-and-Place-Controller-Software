@@ -23,7 +23,7 @@ namespace PickandPlace
         KM_Axis _CAxis;
         KM_CoordMotion _Motion;
 
-        App MyApplication;
+      
 
         private double currentX = 0.0;
         private double currentY = 0.0;
@@ -36,8 +36,6 @@ namespace PickandPlace
 
         public void initdevicesettings()
         {
-
-            MyApplication = ((App)Application.Current);
             string codeBase = Assembly.GetExecutingAssembly().CodeBase;
             UriBuilder uri = new UriBuilder(codeBase);
             string path = Uri.UnescapeDataString(uri.Path);
@@ -261,8 +259,8 @@ namespace PickandPlace
 
 
             setAlltoZero();
+           
 
-            MyApplication.setHomed(true);
         }
 
         public void setAlltoZero()
@@ -354,26 +352,24 @@ namespace PickandPlace
         }
         public bool MoveSingleFeed(double speed, double x, double y, double z, double a, double b, double c)
         {
-            
-                currentX = x;
-                currentY = y;
-                currentZ = z;
-                currentA = a;
-                currentB = b;
-                currentC = c;
+            currentX = x;
+            currentY = y;
+            currentZ = z;
+            currentA = a;
+            currentB = b;
+            currentC = c;
 
-                _Controller.CoordMotion.StraightTraverse(currentX, currentY, currentZ, currentA, currentB, currentC, true);
-                // _Controller.CoordMotion.SetTPParams();
+            _Controller.CoordMotion.StraightTraverse(currentX, currentY, currentZ, currentA, currentB, currentC, true);
+            // _Controller.CoordMotion.SetTPParams();
 
-                _Controller.CoordMotion.DownloadDoneSegments();
-                _Controller.CoordMotion.WaitForSegmentsFinished(true);
-                _Controller.CoordMotion.FlushSegments();
+            _Controller.CoordMotion.DownloadDoneSegments();
+            _Controller.CoordMotion.WaitForSegmentsFinished(true);
+            _Controller.CoordMotion.FlushSegments();
 
-                _BAxis.SetCurrentPosition(0);
-                _CAxis.SetCurrentPosition(0);
-                //Debug.WriteLine("(X:" + x.ToString() + ")(Y:" + y.ToString() + ")(Z:" + z.ToString() + ")(A:" + a.ToString() + ")(B:" + b.ToString() + ")(C:" + c.ToString());
-                return true;
-            
+            _BAxis.SetCurrentPosition(0);
+            _CAxis.SetCurrentPosition(0);
+            //Debug.WriteLine("(X:" + x.ToString() + ")(Y:" + y.ToString() + ")(Z:" + z.ToString() + ")(A:" + a.ToString() + ")(B:" + b.ToString() + ")(C:" + c.ToString());
+            return true;
         }
 
         public bool MoveArrayFeed(double[,] array)
@@ -463,8 +459,13 @@ namespace PickandPlace
       
         public void JogAxis(string axis, double distancetomove)
         {
-           
-           
+            double x = 0;
+            double y = 0;
+            double z = 0;
+            double a = 0;
+            double b = 0;
+            double c = 0;
+           // GetDRO(out x, out y, out z, out a, out b, out c);
 
             // to do
             if (axis.Equals("X"))

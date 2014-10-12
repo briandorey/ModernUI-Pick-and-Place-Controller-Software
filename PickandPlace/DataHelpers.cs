@@ -40,10 +40,10 @@ namespace PickandPlace
         }
 
 
-        public double Nozzle1Xoffset = -20.0;
-        public double Nozzle1Yoffset = 7.2;//7.16
+        public double Nozzle1Xoffset = -20.37;
+        public double Nozzle1Yoffset = 7.0;//7.16
 
-        public double Nozzle2Xoffset = 11.82;
-        public double Nozzle2Yoffset = 7.22; //7.22
+        public double Nozzle2Xoffset = 11.74;
+        public double Nozzle2Yoffset = 7.0; //7.22
     }
 }

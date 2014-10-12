@@ -270,29 +270,6 @@ namespace PickandPlace.Pages
         {
             _kflop.EStop();
         }
-
-        private void mainframe_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
-        {
-           
-            int currentitem = dd_distance.SelectedIndex;
-            int maaxitems = dd_distance.Items.Count;
-            if (e.Delta > 0) {
-                if (currentitem > 0)
-                {
-                    dd_distance.SelectedIndex = currentitem - 1;
-                }
-                else
-                {
-                    dd_distance.SelectedIndex = 0;
-                }
-            } else {
-                if (currentitem < maaxitems)
-                {
-                    dd_distance.SelectedIndex = currentitem + 1;
-                }
-            }
-            
-        }
       
     }
 
