@@ -13,7 +13,7 @@ namespace PickandPlace
 {
     public class PCBBuilder
     {
-        DataSet dsData = new DataSet();
+        public DataSet dsData = new DataSet();
 
         private Components comp = new Components();
         private usbDevice usbController;
@@ -163,7 +163,7 @@ namespace PickandPlace
                         Thread.Sleep(50);
                         // use picker 1
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, feederPosZ, ClearHeight, 0, 0);
-                        Thread.Sleep(50);
+                        Thread.Sleep(150);
                         // go down and turn on suction
                         usbController.setVAC1(true);
                         Thread.Sleep(100);
@@ -174,17 +174,19 @@ namespace PickandPlace
                     {
                         // use picker 2
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, feederPosZ, 0, 0);
-                        Thread.Sleep(50);
-                        usbController.setVAC2(true);
-                        
                         Thread.Sleep(200);
+
+                        usbController.setVAC2(true);
+                        Thread.Sleep(300);
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, ClearHeight, 0, 0);
                     }
                     // send picker to pick next item
                     if (currentrow >= 0 && (currentrow + 1) < totalrows)
                     {
                         Thread.Sleep(100);
-                       
+                        Thread.Sleep(100);
+
+
                         SetFeederOutputs(comp.GetFeederID(dv[currentrow + 1]["ComponentCode"].ToString())); // send feeder to position
                     }
 
@@ -196,12 +198,11 @@ namespace PickandPlace
                     {
 
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, 0, ComponentRotation);
-
                        
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, PlacementHeight, ClearHeight, 0, ComponentRotation);
                         Thread.Sleep(300);
                         usbController.setVAC1(false);
-                        Thread.Sleep(300);
+                        Thread.Sleep(150);
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, 0, ComponentRotation);
 
                     }
@@ -216,7 +217,7 @@ namespace PickandPlace
                         Thread.Sleep(300);
                         
                         usbController.setVAC2(false);
-                        Thread.Sleep(300);
+                        Thread.Sleep(200);
                         kf.MoveSingleFeed(feedrate, placePosX, placePosY, ClearHeight, ClearHeight, ComponentRotation, 0);
 
                     }
@@ -233,11 +234,13 @@ namespace PickandPlace
                 MessageBox.Show("Board file not loaded");
             }
             backgroundWorkerBuildPCB.CancelAsync();
-
-         
+            usbController.setResetFeeder();
+            kf.RunHomeAll();
+           
           
             dv.Dispose();
             dtComponents.Dispose();
+            
         }
 
         private void worker_RunWorkerCompleted(object sender, 

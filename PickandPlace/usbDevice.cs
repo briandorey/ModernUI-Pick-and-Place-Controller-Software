@@ -21,6 +21,12 @@ namespace PickandPlace
     /// </summary>
     public class usbDevice : usbGenericHidCommunication
     {
+
+        private int Vac1Suck = 0;
+        private int Vac1Air = 2;
+        private int Vac2Suck = 4;
+        private int Vac2Air = 6;
+        private int AirPulseLength = 20;
         /// <summary>
         /// Class constructor - place any initialisation here
         /// </summary>
@@ -97,7 +103,7 @@ namespace PickandPlace
             return success;
         }
 
-        public bool setFeederPort(Int16 inval)
+        public bool setIOPort(Int16 inval)
         {
             byte b0 = (byte)inval,
                  b1 = (byte)(inval >> 8);
@@ -155,8 +161,102 @@ namespace PickandPlace
             success = writeRawReportToDevice(outputBuffer);
             return success;
         }
+        Int16 aByte = 0;
 
+        public void Set(int pos, bool value)
+        {
+            if (value)
+            {
+                //left-shift 1, then bitwise OR
+                aByte = (Int16)(aByte | (1 << pos));
+            }
+            else
+            {
+                //left-shift 1, then take complement, then bitwise AND
+                aByte = (Int16)(aByte & ~(1 << pos));
+            }
+        }
+
+        public bool Get(int pos)
+        {
+            //left-shift 1, then bitwise AND, then check for non-zero
+            return ((aByte & (1 << pos)) != 0);
+        }
+ 
         public bool setVAC1(bool inval)
+        {
+            Set(Vac1Air, false);
+            if (inval)
+            {
+                Set(Vac1Suck, true);
+            }
+            else
+            {
+                Set(Vac1Suck, false);
+                Vac1AirPulse();
+            }
+            setIOPort(aByte);
+           
+            return true;
+        }
+
+        public bool setVAC2(bool inval)
+        {
+            Set(Vac2Air, false);
+            if (inval)
+            {
+                Set(Vac2Suck, true);
+            }
+            else
+            {
+                Set(Vac2Suck, false);
+                Vac2AirPulse();
+            }
+            
+            setIOPort(aByte);
+
+            return true;
+        }
+        public void Vac1AirPulse()
+        {
+            Thread th_motor = new Thread(Vac1AirPulseSub);
+            th_motor.Start();
+        }
+        private void Vac1AirPulseSub()
+        {
+            Set(Vac1Air, true);
+            setIOPort(aByte);
+            int n = 1;
+            while (n < AirPulseLength)
+            {
+                Thread.Sleep(10);
+                n++;
+            }
+
+            Set(Vac1Air, false);
+            setIOPort(aByte);
+        }
+        public void Vac2AirPulse()
+        {
+            Thread th_motor = new Thread(Vac2AirPulseSub);
+            th_motor.Start();
+        }
+        private void Vac2AirPulseSub()
+        {
+            Set(Vac2Air, true);
+            setIOPort(aByte);
+            int n = 1;
+            while (n < AirPulseLength)
+            {
+                Thread.Sleep(10);
+                n++;
+            }
+
+            Set(Vac2Air, false);
+            setIOPort(aByte);
+        }
+
+        public bool setVAC1Old(bool inval)
         {
             Byte[] outputBuffer = new Byte[65];
 
@@ -177,7 +277,7 @@ namespace PickandPlace
             return success;
         }
 
-        public bool setVAC2(bool inval)
+        public bool setVAC2Old(bool inval)
         {
             Byte[] outputBuffer = new Byte[65];
 
@@ -197,7 +297,6 @@ namespace PickandPlace
             success = writeRawReportToDevice(outputBuffer);
             return success;
         }
-
         public void RunVibrationMotor()
         {
             Thread th_motor = new Thread(RunVibrationMotorSub);
@@ -206,8 +305,15 @@ namespace PickandPlace
         private void RunVibrationMotorSub()
         {
             setVibrationMotor(true);
-            Thread.Sleep(600);
-            Thread.Sleep(600);
+            int n = 1;
+            while (n < 12)
+            {
+                Thread.Sleep(100);
+                n++;
+            }
+
+            
+           
             setVibrationMotor(false);
         }
         public bool setVibrationMotor(bool inval)
@@ -480,8 +586,9 @@ namespace PickandPlace
             setBaseCameraPWM(BaseCameraPWM);
             setHeadCameraPWM(HeadCameraPWM);
             setVibrationMotorSpeed(250);
-            setVAC1(false);
-            setVAC2(false);
+            //setVAC1(false);
+            //setVAC2(false);
+            setIOPort(0);
             if (fulltest)
             {
                 setResetFeeder();
@@ -502,13 +609,13 @@ namespace PickandPlace
                 Thread.Sleep(100);
                 setBaseCameraLED(false);
                 Thread.Sleep(100);
-                setVAC1(true);
+                //setVAC1(true);
                 Thread.Sleep(100);
-                setVAC1(false);
+                //setVAC1(false);
                 Thread.Sleep(100);
-                setVAC2(true);
+                //setVAC2(true);
                 Thread.Sleep(100);
-                setVAC2(false);
+                //setVAC2(false);
             }
 
         }

@@ -116,3 +116,8 @@ C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\obj\Debug\PickandPlace.Proper
 C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\obj\Debug\PickandPlace.csproj.GenerateResource.Cache
 C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\obj\Debug\PickandPlace.exe
 C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\obj\Debug\PickandPlace.pdb
+C:\KMotion432\KMotion\Release\Resources\appbar.save.png
+C:\Users\brian\Desktop\PickandPlace\PickandPlace\obj\Debug\pcbvisualiser.baml
+C:\Users\brian\Desktop\PickandPlace\PickandPlace\obj\Debug\pcbvisualiser.g.cs
+C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\obj\Debug\pcbvisualiser.baml
+C:\Users\roofdev\Desktop\PickandPlace\PickandPlace\obj\Debug\pcbvisualiser.g.cs

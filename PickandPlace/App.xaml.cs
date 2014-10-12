@@ -16,9 +16,11 @@ namespace PickandPlace
         public usbDevice usbController;
         public kflop _kflop = new kflop();
 
+        public bool _hasHomed = false;
+
         void App_Startup(object sender, StartupEventArgs e)
         {
-            
+            _hasHomed = false;
             _kflop.initdevice();
             usbController = new usbDevice(0x04D8, 0x0042);
             usbController.usbEvent += new usbDevice.usbEventsHandler(usbEvent_receiver);
@@ -27,8 +29,15 @@ namespace PickandPlace
             
            
         }
+        public bool checkHome() {
+            return _hasHomed;
 
+        }
+        public void setHomed(bool status)
+        {
+            _hasHomed = status;
 
+        }
         public kflop GetKFlop()
         {
             
