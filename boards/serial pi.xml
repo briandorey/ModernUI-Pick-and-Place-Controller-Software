@@ -8,6 +8,7 @@
               <xs:sequence>
                 <xs:element name="BoardName" type="xs:string" minOccurs="0" />
                 <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+                <xs:element name="MotorRunTime" type="xs:int" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -31,6 +32,7 @@
   <BoardInfo>
     <BoardName>Serial Pi</BoardName>
     <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>25</MotorRunTime>
   </BoardInfo>
   <Components>
     <ComponentCode>5</ComponentCode>
@@ -171,7 +173,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C16 - 100nF</ComponentName>
     <PlacementX>71.4643916644651</PlacementX>
-    <PlacementY>84.7687528794574</PlacementY>
+    <PlacementY>84.9687528794574</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -180,7 +182,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C17 - 100nF</ComponentName>
     <PlacementX>77.0395877921839</PlacementX>
-    <PlacementY>91.5463566039947</PlacementY>
+    <PlacementY>91.7463566039947</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -189,7 +191,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C18 - 100nF</ComponentName>
     <PlacementX>75.8727241302559</PlacementX>
-    <PlacementY>98.4858826033392</PlacementY>
+    <PlacementY>98.6858826033392</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -198,7 +200,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C19 - 100nF</ComponentName>
     <PlacementX>71.5950816501481</PlacementX>
-    <PlacementY>98.56463865649</PlacementY>
+    <PlacementY>98.76463865649</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -207,7 +209,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C20 - 100nF</ComponentName>
     <PlacementX>66.5600778170477</PlacementX>
-    <PlacementY>95.9189930143323</PlacementY>
+    <PlacementY>96.1189930143323</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -306,7 +308,7 @@
     <ComponentCode>103</ComponentCode>
     <ComponentName>U1 - MAX3232EID</ComponentName>
     <PlacementX>30.7549059953918</PlacementX>
-    <PlacementY>91.7091868621652</PlacementY>
+    <PlacementY>91.9</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
@@ -333,7 +335,7 @@
     <ComponentCode>103</ComponentCode>
     <ComponentName>U4 - MAX3232EID</ComponentName>
     <PlacementX>71.5877831906559</PlacementX>
-    <PlacementY>91.7044091088168</PlacementY>
+    <PlacementY>91.9</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>

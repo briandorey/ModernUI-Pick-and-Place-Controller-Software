@@ -30,52 +30,79 @@
     </xs:element>
   </xs:schema>
   <BoardInfo>
-    <BoardName>RTC Pi Plus</BoardName>
+    <BoardName>IO Pi Plus</BoardName>
     <BoardHeight>1.6</BoardHeight>
     <MotorRunTime>25</MotorRunTime>
   </BoardInfo>
   <Components>
     <ComponentCode>7</ComponentCode>
-    <ComponentName>u1 - Dual Mosfet</ComponentName>
-    <PlacementX>60.7</PlacementX>
-    <PlacementY>94.2</PlacementY>
+    <ComponentName>U1 - Dual Mosfet</ComponentName>
+    <PlacementX>61.3</PlacementX>
+    <PlacementY>98.3</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>5</ComponentCode>
-    <ComponentName>c1 - 100nF</ComponentName>
-    <PlacementX>54.56</PlacementX>
-    <PlacementY>104.88</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <ComponentName>C1 - 100nF</ComponentName>
+    <PlacementX>45.6</PlacementX>
+    <PlacementY>103.4</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>2</ComponentCode>
-    <ComponentName>r1 - 10K</ComponentName>
-    <PlacementX>54.56</PlacementX>
-    <PlacementY>108.17</PlacementY>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>C2 - 100nF</ComponentName>
+    <PlacementX>41.7</PlacementX>
+    <PlacementY>113</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>R1 - 10Kx4</ComponentName>
+    <PlacementX>59.5</PlacementX>
+    <PlacementY>125.5</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>4</ComponentCode>
-    <ComponentName>r2 - 10Kx4</ComponentName>
-    <PlacementX>60.74</PlacementX>
-    <PlacementY>100.5</PlacementY>
+    <ComponentName>R2 - 10Kx4</ComponentName>
+    <PlacementX>50.6</PlacementX>
+    <PlacementY>125.5</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>R3 - 10Kx4</ComponentName>
+    <PlacementX>61.6</PlacementX>
+    <PlacementY>104.3</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>102</ComponentCode>
-    <ComponentName>u2 - DS1307Z</ComponentName>
-    <PlacementX>61</PlacementX>
-    <PlacementY>108.88</PlacementY>
-    <PlacementRotate>-90</PlacementRotate>
+    <ComponentCode>106</ComponentCode>
+    <ComponentName>IC1 - MCP23017</ComponentName>
+    <PlacementX>38.95</PlacementX>
+    <PlacementY>103.4</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>106</ComponentCode>
+    <ComponentName>IC2 - MCP23017</ComponentName>
+    <PlacementX>34.8</PlacementX>
+    <PlacementY>113.6</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>

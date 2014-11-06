@@ -15,18 +15,20 @@
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="64"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="64"/>
                         <ColumnDefinition Width="64"/>
                     <ColumnDefinition Width="64"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock x:Name="ItemTitle" Text="View Loaded PCB" Style="{StaticResource Heading2}" Grid.Column="0" />
+                <TextBox x:Name="csfeeder" Text="20" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
                 <mz:ImageButtonBasic Image="/Resources/appbar.cog.png" HorizontalAlignment="Right" VerticalAlignment="Top"
-                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="View Loaded PCB" x:Name="bt_ViewPCB"    Grid.Column="1" Click="bt_ViewPCB_Click" />
+                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="View Loaded PCB" x:Name="bt_ViewPCB"    Grid.Column="2" Click="bt_ViewPCB_Click" />
              
                 <mz:ImageButtonBasic Image="/Resources/appbar.disk.png" HorizontalAlignment="Right" VerticalAlignment="Top"
-                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="Save PCB File" x:Name="bt_Save"    Grid.Column="2" Click="bt_Save_Click"/>
+                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="Save PCB File" x:Name="bt_Save"    Grid.Column="3" Click="bt_Save_Click"/>
                 <mz:ImageButtonBasic Image="/Resources/appbar.folder.open.png" HorizontalAlignment="Right" VerticalAlignment="Top"
-                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="Load PCB File" x:Name="bt_Load"    Grid.Column="3" Click="bt_Load_Click" />
+                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="Load PCB File" x:Name="bt_Load"    Grid.Column="4" Click="bt_Load_Click" />
                 </Grid>
         <Label x:Name="lblInfo" />
             <Label x:Name="lblActive" />

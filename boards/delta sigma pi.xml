@@ -8,6 +8,7 @@
               <xs:sequence>
                 <xs:element name="BoardName" type="xs:string" minOccurs="0" />
                 <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+                <xs:element name="MotorRunTime" type="xs:int" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -31,6 +32,7 @@
   <BoardInfo>
     <BoardName>Delta Sigma Pi</BoardName>
     <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>25</MotorRunTime>
   </BoardInfo>
   <Components>
     <ComponentCode>7</ComponentCode>

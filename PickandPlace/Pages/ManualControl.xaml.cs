@@ -266,7 +266,7 @@ namespace PickandPlace.Pages
 
         private void bt_ChipFeeder_Click(object sender, RoutedEventArgs e)
         {
-            usbController.RunVibrationMotor();
+            usbController.RunVibrationMotor(25);
         }
 
         private void bt_runto_Click(object sender, RoutedEventArgs e)

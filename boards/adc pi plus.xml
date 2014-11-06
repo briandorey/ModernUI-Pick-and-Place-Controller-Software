@@ -30,15 +30,16 @@
     </xs:element>
   </xs:schema>
   <BoardInfo>
-    <BoardName>ADC Pi</BoardName>
+    <BoardName>ADC Pi Plus</BoardName>
     <BoardHeight>1.6</BoardHeight>
     <MotorRunTime>25</MotorRunTime>
   </BoardInfo>
+ 
   <Components>
     <ComponentCode>7</ComponentCode>
-    <ComponentName>u0 - Dual Mosfet</ComponentName>
-    <PlacementX>49.2074329584707</PlacementX>
-    <PlacementY>91.5</PlacementY>
+    <ComponentName>u1 - Dual Mosfet</ComponentName>
+    <PlacementX>59.2102841361762</PlacementX>
+    <PlacementY>93.7</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -46,8 +47,8 @@
   <Components>
     <ComponentCode>5</ComponentCode>
     <ComponentName>c1 - 100nF</ComponentName>
-    <PlacementX>24.8</PlacementX>
-    <PlacementY>110.4</PlacementY>
+    <PlacementX>52.0919064809884</PlacementX>
+    <PlacementY>103.36</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -55,17 +56,17 @@
   <Components>
     <ComponentCode>5</ComponentCode>
     <ComponentName>c2 - 100nF</ComponentName>
-    <PlacementX>34.3</PlacementX>
-    <PlacementY>110.4</PlacementY>
+    <PlacementX>52.3</PlacementX>
+    <PlacementY>120.74</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>6</ComponentCode>
-    <ComponentName>c2 - 10uF Tantalum</ComponentName>
-    <PlacementX>32.22</PlacementX>
-    <PlacementY>110.8</PlacementY>
+    <ComponentName>c3 - 10uF Tantalum</ComponentName>
+    <PlacementX>49.2</PlacementX>
+    <PlacementY>121.05</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -73,8 +74,8 @@
   <Components>
     <ComponentCode>6</ComponentCode>
     <ComponentName>c4 - 10uF Tantalum</ComponentName>
-    <PlacementX>27.2</PlacementX>
-    <PlacementY>110.8</PlacementY>
+    <PlacementX>49.2</PlacementX>
+    <PlacementY>103.76</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -82,171 +83,171 @@
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r1 - 10K</ComponentName>
-    <PlacementX>19.7691057113416</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>97.67</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r2 - 10K</ComponentName>
-    <PlacementX>23.0893350600172</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>101</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r3 - 10K</ComponentName>
-    <PlacementX>26.4015308331618</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>104.2</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r4 - 10K</ComponentName>
-    <PlacementX>29.8572283116501</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>107.4</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r5 - 10K</ComponentName>
-    <PlacementX>33.3177039296008</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>110.6</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r6 - 10K</ComponentName>
-    <PlacementX>36.9329177562949</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>113.7</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r7 - 10K</ComponentName>
-    <PlacementX>40.1743865639967</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>116.9</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>2</ComponentCode>
     <ComponentName>r8 - 10K</ComponentName>
-    <PlacementX>43.4447342361843</PlacementX>
-    <PlacementY>91.5</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>27.7803128532494</PlacementX>
+    <PlacementY>120.1</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r9 - 6K8</ComponentName>
-    <PlacementX>43.5114181601644</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>120.2</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r10 - 6K8</ComponentName>
-    <PlacementX>40.2967279362628</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>116.8</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r11 - 6K8</ComponentName>
-    <PlacementX>36.9328127422408</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>113.6</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r12 - 6K8</ComponentName>
-    <PlacementX>33.3328784612027</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>110.5</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r13 - 6K8</ComponentName>
-    <PlacementX>29.85</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>107.4</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r14 - 6K8</ComponentName>
-    <PlacementX>26.4215885175043</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>104.2</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r15 - 6K8</ComponentName>
-    <PlacementX>23.0783610913618</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>100.91</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r16 - 6K8</ComponentName>
-    <PlacementX>19.8222428227255</PlacementX>
-    <PlacementY>95.2</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
+    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementY>97.84</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>4</ComponentCode>
     <ComponentName>r17 - 10Kx4</ComponentName>
-    <PlacementX>48.7</PlacementX>
-    <PlacementY>95.95</PlacementY>
+    <PlacementX>58.7145654748013</PlacementX>
+    <PlacementY>99.9</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>100</ComponentCode>
-    <ComponentName>u1 - MCP3424</ComponentName>
-    <PlacementX>37.6</PlacementX>
-    <PlacementY>102.55</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <ComponentName>u2 - MCP3424</ComponentName>
+    <PlacementX>41.6195901436002</PlacementX>
+    <PlacementY>102</PlacementY>
+    <PlacementRotate>-89</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>100</ComponentCode>
-    <ComponentName>u2 - MCP3424</ComponentName>
-    <PlacementX>27.75</PlacementX>
-    <PlacementY>102.55</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <ComponentName>u3 - MCP3424</ComponentName>
+    <PlacementX>41.7404611486592</PlacementX>
+    <PlacementY>114.76</PlacementY>
+    <PlacementRotate>-89</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>

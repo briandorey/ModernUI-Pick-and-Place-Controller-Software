@@ -27,6 +27,7 @@ namespace PickandPlace
         private int Vac2Suck = 4;
         private int Vac2Air = 6;
         private int AirPulseLength = 20;
+        private bool ChipMotorRunning = false;
         /// <summary>
         /// Class constructor - place any initialisation here
         /// </summary>
@@ -297,16 +298,24 @@ namespace PickandPlace
             success = writeRawReportToDevice(outputBuffer);
             return success;
         }
-        public void RunVibrationMotor()
+        public bool CheckChipMotorRunning()
         {
+            return ChipMotorRunning;
+
+        }
+        private int MotorRunLoop = 20;
+        public void RunVibrationMotor(int newrunloop)
+        {
+            MotorRunLoop = newrunloop;
             Thread th_motor = new Thread(RunVibrationMotorSub);
             th_motor.Start();
         }
         private void RunVibrationMotorSub()
         {
             setVibrationMotor(true);
+            ChipMotorRunning = true;
             int n = 1;
-            while (n < 12)
+            while (n < MotorRunLoop)
             {
                 Thread.Sleep(100);
                 n++;
@@ -315,6 +324,7 @@ namespace PickandPlace
             
            
             setVibrationMotor(false);
+            ChipMotorRunning = false;
         }
         public bool setVibrationMotor(bool inval)
         {

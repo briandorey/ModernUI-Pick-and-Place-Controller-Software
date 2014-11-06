@@ -21,8 +21,9 @@ namespace PickandPlace
 
         // manual picker selector
         public int currentfeeder = 0;
+        int MotorRunLoop = 20;
         // bed settings
-        public double NeedleZHeight = 35.0;
+        public double NeedleZHeight = 34.9;
 
         DataHelpers dh = new DataHelpers();
       
@@ -163,16 +164,20 @@ namespace PickandPlace
                         Thread.Sleep(50);
                         // use picker 1
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, feederPosZ, ClearHeight, 0, 0);
-                        Thread.Sleep(150);
+                        Thread.Sleep(200);
                         // go down and turn on suction
                         usbController.setVAC1(true);
-                        Thread.Sleep(100);
+                        Thread.Sleep(200);
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, ClearHeight, 0, 0);
 
                     }
                     else
                     {
                         // use picker 2
+                        while (usbController.CheckChipMotorRunning())
+                        {
+                            Thread.Sleep(10);
+                        }
                         kf.MoveSingleFeed(feedrate, feederPosX, feederPosY, ClearHeight, feederPosZ, 0, 0);
                         Thread.Sleep(200);
 
@@ -235,6 +240,7 @@ namespace PickandPlace
             }
             backgroundWorkerBuildPCB.CancelAsync();
             usbController.setResetFeeder();
+            usbController.RunVibrationMotor(MotorRunLoop);
             kf.RunHomeAll();
            
           
@@ -289,15 +295,15 @@ namespace PickandPlace
 
             if (feedercommand > 20 && feedercommand < 30)
             {
-                usbController.RunVibrationMotor();
+                usbController.RunVibrationMotor(MotorRunLoop);
             }
         }
 
        
 
-        public void ActivateBuildProcess()
+        public void ActivateBuildProcess(int motorruntime)
         {
-
+            MotorRunLoop = motorruntime;
             if (backgroundWorkerBuildPCB.IsBusy != true)
             {
                 backgroundWorkerBuildPCB.RunWorkerAsync();

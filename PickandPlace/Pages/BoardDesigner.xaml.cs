@@ -70,6 +70,7 @@ namespace PickandPlace.Pages
             // setup board info table
             dtPCBInfo.Columns.Add("BoardName", typeof(string));
             dtPCBInfo.Columns.Add("BoardHeight", typeof(double));
+            dtPCBInfo.Columns.Add("MotorRunTime", typeof(int));
 
             return dt;
         }
@@ -182,7 +183,7 @@ namespace PickandPlace.Pages
             {
 
 
-                dscomponents.Tables["BoardInfo"].Rows.Add(txt_BoardName.Text, Double.Parse(txt_BoardHeight.Text));
+                dscomponents.Tables["BoardInfo"].Rows.Add(txt_BoardName.Text, Double.Parse(txt_BoardHeight.Text), 20);
 
 
 

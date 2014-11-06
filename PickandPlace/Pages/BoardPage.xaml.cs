@@ -112,6 +112,7 @@ namespace PickandPlace.Pages
 
 
                 ItemTitle.Text = dsData.Tables["BoardInfo"].Rows[0][0].ToString();
+                csfeeder.Text = dsData.Tables["BoardInfo"].Rows[0][2].ToString();
             }
             
             
@@ -123,7 +124,7 @@ namespace PickandPlace.Pages
 
         private void bt_ChipFeeder_Click(object sender, RoutedEventArgs e)
         {
-            usbController.RunVibrationMotor();
+            usbController.RunVibrationMotor(int.Parse(csfeeder.Text));
         }
 
         private void bt_CheckAll_Click(object sender, RoutedEventArgs e)
@@ -170,7 +171,7 @@ namespace PickandPlace.Pages
         {
             if (MyApplication.checkHome())
             {
-                builder.ActivateBuildProcess();
+                builder.ActivateBuildProcess(int.Parse(csfeeder.Text));
             }
             else
             {
@@ -207,6 +208,9 @@ namespace PickandPlace.Pages
             saveFileDialog.Filter = "Xml file (*.xml)|*.xml";
             if (saveFileDialog.ShowDialog() == true)
             {
+               
+                dsData.Tables["BoardInfo"].Rows[0][2] = csfeeder.Text;
+
                 System.IO.StreamWriter xmlSW = new System.IO.StreamWriter(saveFileDialog.FileName);
                 dsData.WriteXml(xmlSW, XmlWriteMode.WriteSchema);
                 xmlSW.Close();
