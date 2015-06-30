@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pcbboard>
+<ComponentList>
+ <Component>
+     <RefDes>U7</RefDes>
+     <Type>FDC6301N</Type>
+     <Value></Value>
+     <PosX>29.5</PosX>
+     <PosY>30.71</PosY>
+     <Rotate>90</Rotate>
+     <feederNumber>1</feederNumber>
+     <ComponentCode>7</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>C7</RefDes>
+     <Type>CAP</Type>
+     <Value>100nF</Value>
+     <PosX>24.96</PosX>
+     <PosY>24</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>3</feederNumber>
+     <ComponentCode>5</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R5</RefDes>
+     <Type>RES</Type>
+     <Value>100R</Value>
+     <PosX>20.3</PosX>
+     <PosY>23.7</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>6</feederNumber>
+     <ComponentCode>0</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2x4</Value>
+     <PosX>29.28</PosX>
+     <PosY>24.7</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>U6</RefDes>
+     <Type>DS9503</Type>
+     <Value></Value>
+     <PosX>17.7</PosX>
+     <PosY>28.66</PosY>
+     <Rotate>-90</Rotate>
+     <feederNumber>21</feederNumber>
+     <ComponentCode>105</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>U4</RefDes>
+     <Type>DS2482S-100</Type>
+     <Value></Value>
+     <PosX>24.7</PosX>
+     <PosY>30</PosY>
+     <Rotate>90</Rotate>
+     <feederNumber>26</feederNumber>
+     <ComponentCode>104</ComponentCode>
+   </Component>
+</ComponentList>
+<BoardDefaults>
+  <Settings>
+    <BoardOffsetX>36.9</BoardOffsetX>
+    <BoardOffsetY>74.7</BoardOffsetY>
+    <FeedRate>17000</FeedRate>
+    <PCBThickness>1.4</PCBThickness>
+    <chipfeederms>400</chipfeederms>
+  </Settings>
+</BoardDefaults>
+</pcbboard>

@@ -1,0 +1,282 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BoardInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BoardName" type="xs:string" minOccurs="0" />
+                <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+                <xs:element name="MotorRunTime" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Components">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ComponentCode" type="xs:int" minOccurs="0" />
+                <xs:element name="ComponentName" type="xs:string" minOccurs="0" />
+                <xs:element name="PlacementX" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementY" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementRotate" type="xs:int" minOccurs="0" />
+                <xs:element name="PlacementNozzle" type="xs:int" minOccurs="0" />
+                <xs:element name="Pick" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BoardInfo>
+    <BoardName>ADC Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>ADC Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>ADC Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>ADC Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>ADC Pi</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c51 - 10uF Tantalum</ComponentName>
+    <PlacementX>28.5958520783585</PlacementX>
+    <PlacementY>115.750490932851</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c52 - 10uF Tantalum</ComponentName>
+    <PlacementX>28.5958520783585</PlacementX>
+    <PlacementY>150.534080184698</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c53 - 10uF Tantalum</ComponentName>
+    <PlacementX>28.8693611819189</PlacementX>
+    <PlacementY>185.314379065048</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c54 - 10uF Tantalum</ComponentName>
+    <PlacementX>28.8693611819189</PlacementX>
+    <PlacementY>220.059310214234</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c55 - 10uF Tantalum</ComponentName>
+    <PlacementX>28.8693611819189</PlacementX>
+    <PlacementY>254.875409296168</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c56 - 10uF Tantalum</ComponentName>
+    <PlacementX>53.1165811313583</PlacementX>
+    <PlacementY>115.633451431984</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c57 - 10uF Tantalum</ComponentName>
+    <PlacementX>53.3219361138017</PlacementX>
+    <PlacementY>150.395742205254</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c58 - 10uF Tantalum</ComponentName>
+    <PlacementX>53.3219361138017</PlacementX>
+    <PlacementY>185.166550722512</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c59 - 10uF Tantalum</ComponentName>
+    <PlacementX>53.3219361138017</PlacementX>
+    <PlacementY>219.955367388647</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c60 - 10uF Tantalum</ComponentName>
+    <PlacementX>53.4880158399991</PlacementX>
+    <PlacementY>254.724749017696</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c61 - 10uF Tantalum</ComponentName>
+    <PlacementX>77.6445562303558</PlacementX>
+    <PlacementY>115.738560461705</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c62 - 10uF Tantalum</ComponentName>
+    <PlacementX>77.4736983646552</PlacementX>
+    <PlacementY>150.532457425209</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c63 - 10uF Tantalum</ComponentName>
+    <PlacementX>77.8378344260794</PlacementX>
+    <PlacementY>185.152152899678</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c64 - 10uF Tantalum</ComponentName>
+    <PlacementX>77.8378344260794</PlacementX>
+    <PlacementY>220.060778994985</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c65 - 10uF Tantalum</ComponentName>
+    <PlacementX>77.8378344260794</PlacementX>
+    <PlacementY>254.754085258782</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c66 - 10uF Tantalum</ComponentName>
+    <PlacementX>101.8</PlacementX>
+    <PlacementY>115.817619103459</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c67 - 10uF Tantalum</ComponentName>
+    <PlacementX>101.8</PlacementX>
+    <PlacementY>150.542055921416</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c68 - 10uF Tantalum</ComponentName>
+    <PlacementX>101.8</PlacementX>
+    <PlacementY>185.305622213554</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c69 - 10uF Tantalum</ComponentName>
+    <PlacementX>101.8</PlacementX>
+    <PlacementY>220.163228740766</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c70 - 10uF Tantalum</ComponentName>
+    <PlacementX>101.8</PlacementX>
+    <PlacementY>254.936004467337</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c71 - 10uF Tantalum</ComponentName>
+    <PlacementX>126.479714390652</PlacementX>
+    <PlacementY>115.620459020931</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c72 - 10uF Tantalum</ComponentName>
+    <PlacementX>126.479714390652</PlacementX>
+    <PlacementY>150.471212496156</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c73 - 10uF Tantalum</ComponentName>
+    <PlacementX>126.672677714686</PlacementX>
+    <PlacementY>185.369332059912</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c74 - 10uF Tantalum</ComponentName>
+    <PlacementX>126.672677714686</PlacementX>
+    <PlacementY>219.869282767563</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>6</ComponentCode>
+    <ComponentName>c75 - 10uF Tantalum</ComponentName>
+    <PlacementX>126.855769717283</PlacementX>
+    <PlacementY>254.757371354699</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+</NewDataSet>

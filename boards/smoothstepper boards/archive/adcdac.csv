@@ -1,0 +1,6 @@
+RefDes,Type,X (mm),Y (mm),Side,Rotate,Value,Feeder,Code
+C1,CAP,4.13,13.38,Top,90,100nf,3,5
+C2,CAP,6.35,13.05,Top,-270, 10uF Tantalum,2,6
+C3,CAP,23.49,13.38,Top,90,100nf,3,5
+U2,MCP3202,10.79,13.02,Top,0,MCP3202,25,102
+U3,MCP4822,19.37,13.02,Top,0,MCP4822,26,104

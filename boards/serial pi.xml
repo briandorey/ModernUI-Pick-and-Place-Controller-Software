@@ -46,7 +46,7 @@
   <Components>
     <ComponentCode>5</ComponentCode>
     <ComponentName>C2 - 100nF</ComponentName>
-    <PlacementX>36.09637578522</PlacementX>
+    <PlacementX>36.2</PlacementX>
     <PlacementY>91.9794609389271</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -74,7 +74,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C5 - 100nF</ComponentName>
     <PlacementX>25.6953638122176</PlacementX>
-    <PlacementY>96.1382259085257</PlacementY>
+    <PlacementY>96.4</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -119,7 +119,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C10 - 100nF</ComponentName>
     <PlacementX>25.9194813789342</PlacementX>
-    <PlacementY>131.080771369279</PlacementY>
+    <PlacementY>131.2</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -164,7 +164,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C15 - 100nF</ComponentName>
     <PlacementX>26.0673936691367</PlacementX>
-    <PlacementY>165.869760977986</PlacementY>
+    <PlacementY>166</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -182,7 +182,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C17 - 100nF</ComponentName>
     <PlacementX>77.0395877921839</PlacementX>
-    <PlacementY>91.7463566039947</PlacementY>
+    <PlacementY>91.9</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -209,7 +209,7 @@
     <ComponentCode>5</ComponentCode>
     <ComponentName>C20 - 100nF</ComponentName>
     <PlacementX>66.5600778170477</PlacementX>
-    <PlacementY>96.1189930143323</PlacementY>
+    <PlacementY>96.2</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -307,54 +307,54 @@
   <Components>
     <ComponentCode>103</ComponentCode>
     <ComponentName>U1 - MAX3232EID</ComponentName>
-    <PlacementX>30.7549059953918</PlacementX>
-    <PlacementY>91.9</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <PlacementX>31.5</PlacementX>
+    <PlacementY>91.2</PlacementY>
+    <PlacementRotate>180</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>103</ComponentCode>
     <ComponentName>U2 - MAX3232EID</ComponentName>
-    <PlacementX>30.7549059953918</PlacementX>
-    <PlacementY>126.858080613073</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <PlacementX>31.5</PlacementX>
+    <PlacementY>126.1</PlacementY>
+    <PlacementRotate>180</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>103</ComponentCode>
     <ComponentName>U3 - MAX3232EID</ComponentName>
-    <PlacementX>30.9822089143642</PlacementX>
-    <PlacementY>161.864854521604</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <PlacementX>31.5</PlacementX>
+    <PlacementY>160.86</PlacementY>
+    <PlacementRotate>180</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>103</ComponentCode>
     <ComponentName>U4 - MAX3232EID</ComponentName>
-    <PlacementX>71.5877831906559</PlacementX>
-    <PlacementY>91.9</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <PlacementX>72.3</PlacementX>
+    <PlacementY>91.2</PlacementY>
+    <PlacementRotate>180</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>103</ComponentCode>
     <ComponentName>U5 - MAX3232EID</ComponentName>
-    <PlacementX>71.7045588184271</PlacementX>
-    <PlacementY>126.734120163358</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <PlacementX>72.3</PlacementX>
+    <PlacementY>126.1</PlacementY>
+    <PlacementRotate>180</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>103</ComponentCode>
     <ComponentName>U6 - MAX3232EID</ComponentName>
-    <PlacementX>71.7045588184271</PlacementX>
-    <PlacementY>161.634271897643</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <PlacementX>72.1</PlacementX>
+    <PlacementY>160.6</PlacementY>
+    <PlacementRotate>180</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>

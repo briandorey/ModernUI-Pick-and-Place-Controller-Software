@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pcbboard>
+<ComponentList>
+ <Component>
+     <RefDes>C2</RefDes>
+     <Type>CAP</Type>
+     <Value> 10uF Tantalum</Value>
+     <PosX>12.8</PosX>
+     <PosY>6.6</PosY>
+     <Rotate>-270</Rotate>
+     <feederNumber>2</feederNumber>
+     <ComponentCode>6</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>C1</RefDes>
+     <Type>CAP</Type>
+     <Value>100nf</Value>
+     <PosX>13.2</PosX>
+     <PosY>4.3</PosY>
+     <Rotate>90</Rotate>
+     <feederNumber>3</feederNumber>
+     <ComponentCode>5</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>C3</RefDes>
+     <Type>CAP</Type>
+     <Value>100nf</Value>
+     <PosX>13.2</PosX>
+     <PosY>23.7</PosY>
+     <Rotate>90</Rotate>
+     <feederNumber>3</feederNumber>
+     <ComponentCode>5</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>U2</RefDes>
+     <Type>MCP3202</Type>
+     <Value>MCP3202</Value>
+     <PosX>13.2</PosX>
+     <PosY>10.79</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>25</feederNumber>
+     <ComponentCode>102</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>U3</RefDes>
+     <Type>MCP4822</Type>
+     <Value>MCP4822</Value>
+     <PosX>13.02</PosX>
+     <PosY>19.37</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>26</feederNumber>
+     <ComponentCode>104</ComponentCode>
+   </Component>
+</ComponentList>
+<BoardDefaults>
+  <Settings>
+    <BoardOffsetX>36.6</BoardOffsetX>
+    <BoardOffsetY>74.9</BoardOffsetY>
+    <FeedRate>50000</FeedRate>
+    <PCBThickness>1.6</PCBThickness>
+    <chipfeederms>1000</chipfeederms>
+  </Settings>
+</BoardDefaults>
+</pcbboard>

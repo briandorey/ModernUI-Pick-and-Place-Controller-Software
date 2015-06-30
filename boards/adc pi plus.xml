@@ -34,12 +34,11 @@
     <BoardHeight>1.6</BoardHeight>
     <MotorRunTime>25</MotorRunTime>
   </BoardInfo>
- 
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u1 - Dual Mosfet</ComponentName>
-    <PlacementX>59.2102841361762</PlacementX>
-    <PlacementY>93.7</PlacementY>
+    <PlacementX>59.3</PlacementX>
+    <PlacementY>93.9</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -47,7 +46,7 @@
   <Components>
     <ComponentCode>5</ComponentCode>
     <ComponentName>c1 - 100nF</ComponentName>
-    <PlacementX>52.0919064809884</PlacementX>
+    <PlacementX>52.3</PlacementX>
     <PlacementY>103.36</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -56,7 +55,7 @@
   <Components>
     <ComponentCode>5</ComponentCode>
     <ComponentName>c2 - 100nF</ComponentName>
-    <PlacementX>52.3</PlacementX>
+    <PlacementX>52.5</PlacementX>
     <PlacementY>120.74</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -65,7 +64,7 @@
   <Components>
     <ComponentCode>6</ComponentCode>
     <ComponentName>c3 - 10uF Tantalum</ComponentName>
-    <PlacementX>49.2</PlacementX>
+    <PlacementX>49.7</PlacementX>
     <PlacementY>121.05</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -74,7 +73,7 @@
   <Components>
     <ComponentCode>6</ComponentCode>
     <ComponentName>c4 - 10uF Tantalum</ComponentName>
-    <PlacementX>49.2</PlacementX>
+    <PlacementX>49.4</PlacementX>
     <PlacementY>103.76</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -84,7 +83,7 @@
     <ComponentCode>2</ComponentCode>
     <ComponentName>r1 - 10K</ComponentName>
     <PlacementX>27.7803128532494</PlacementX>
-    <PlacementY>97.67</PlacementY>
+    <PlacementY>97.9</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -155,7 +154,7 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r9 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
+    <PlacementX>33.1</PlacementX>
     <PlacementY>120.2</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -164,8 +163,8 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r10 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
-    <PlacementY>116.8</PlacementY>
+    <PlacementX>33.1</PlacementX>
+    <PlacementY>117</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -173,8 +172,8 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r11 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
-    <PlacementY>113.6</PlacementY>
+    <PlacementX>33.1</PlacementX>
+    <PlacementY>113.8</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -182,8 +181,8 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r12 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
-    <PlacementY>110.5</PlacementY>
+    <PlacementX>33.1</PlacementX>
+    <PlacementY>110.7</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -191,8 +190,8 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r13 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
-    <PlacementY>107.4</PlacementY>
+    <PlacementX>33.1</PlacementX>
+    <PlacementY>107.6</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -200,8 +199,8 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r14 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
-    <PlacementY>104.2</PlacementY>
+    <PlacementX>33.1</PlacementX>
+    <PlacementY>104.4</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -209,8 +208,8 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r15 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
-    <PlacementY>100.91</PlacementY>
+    <PlacementX>33.1</PlacementX>
+    <PlacementY>101.1</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -218,8 +217,8 @@
   <Components>
     <ComponentCode>1</ComponentCode>
     <ComponentName>r16 - 6K8</ComponentName>
-    <PlacementX>32.8514418629799</PlacementX>
-    <PlacementY>97.84</PlacementY>
+    <PlacementX>33.1</PlacementX>
+    <PlacementY>98</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -227,7 +226,7 @@
   <Components>
     <ComponentCode>4</ComponentCode>
     <ComponentName>r17 - 10Kx4</ComponentName>
-    <PlacementX>58.7145654748013</PlacementX>
+    <PlacementX>58.8</PlacementX>
     <PlacementY>99.9</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -236,8 +235,8 @@
   <Components>
     <ComponentCode>100</ComponentCode>
     <ComponentName>u2 - MCP3424</ComponentName>
-    <PlacementX>41.6195901436002</PlacementX>
-    <PlacementY>102</PlacementY>
+    <PlacementX>41.7</PlacementX>
+    <PlacementY>101.8</PlacementY>
     <PlacementRotate>-89</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
@@ -245,8 +244,8 @@
   <Components>
     <ComponentCode>100</ComponentCode>
     <ComponentName>u3 - MCP3424</ComponentName>
-    <PlacementX>41.7404611486592</PlacementX>
-    <PlacementY>114.76</PlacementY>
+    <PlacementX>41.7</PlacementX>
+    <PlacementY>114.2</PlacementY>
     <PlacementRotate>-89</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>

@@ -37,8 +37,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>U1 - Dual Mosfet</ComponentName>
-    <PlacementX>48.6803143837709</PlacementX>
-    <PlacementY>91.6755705159374</PlacementY>
+    <PlacementX>48.8</PlacementX>
+    <PlacementY>91.9</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -46,7 +46,7 @@
   <Components>
     <ComponentCode>5</ComponentCode>
     <ComponentName>C1 - 100nF</ComponentName>
-    <PlacementX>34.1508322247982</PlacementX>
+    <PlacementX>34.35</PlacementX>
     <PlacementY>107.3</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -55,7 +55,7 @@
   <Components>
     <ComponentCode>5</ComponentCode>
     <ComponentName>C2 - 100nF</ComponentName>
-    <PlacementX>25.0020080012366</PlacementX>
+    <PlacementX>25.2</PlacementX>
     <PlacementY>107.5</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -64,7 +64,7 @@
   <Components>
     <ComponentCode>6</ComponentCode>
     <ComponentName>C3 - 10uF Tantalum</ComponentName>
-    <PlacementX>32.0503409430912</PlacementX>
+    <PlacementX>32.35</PlacementX>
     <PlacementY>107.7</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -73,7 +73,7 @@
   <Components>
     <ComponentCode>6</ComponentCode>
     <ComponentName>C4 - 10uF Tantalum</ComponentName>
-    <PlacementX>27.0257860051492</PlacementX>
+    <PlacementX>27.3</PlacementX>
     <PlacementY>107.7</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -82,8 +82,8 @@
   <Components>
     <ComponentCode>4</ComponentCode>
     <ComponentName>R1 - 10Kx4</ComponentName>
-    <PlacementX>48.1951491006926</PlacementX>
-    <PlacementY>95.85</PlacementY>
+    <PlacementX>48.3</PlacementX>
+    <PlacementY>95.9</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -91,8 +91,8 @@
   <Components>
     <ComponentCode>100</ComponentCode>
     <ComponentName>U2 - MCP3424</ComponentName>
-    <PlacementX>36.467337255056</PlacementX>
-    <PlacementY>98.8</PlacementY>
+    <PlacementX>36.5</PlacementX>
+    <PlacementY>99</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
@@ -100,8 +100,8 @@
   <Components>
     <ComponentCode>100</ComponentCode>
     <ComponentName>U3 - MCP3424</ComponentName>
-    <PlacementX>25.7186240425745</PlacementX>
-    <PlacementY>98.8</PlacementY>
+    <PlacementX>25.7</PlacementX>
+    <PlacementY>99</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>

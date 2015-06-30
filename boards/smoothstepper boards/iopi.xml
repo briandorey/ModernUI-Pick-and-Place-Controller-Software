@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pcbboard>
+<ComponentList>
+ <Component>
+     <RefDes>U7</RefDes>
+     <Type>FDC6301N</Type>
+     <Value>Dual Mosfet</Value>
+     <PosX>29.73</PosX>
+     <PosY>37.48</PosY>
+     <Rotate>90</Rotate>
+     <feederNumber>1</feederNumber>
+     <ComponentCode>7</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>C1</RefDes>
+     <Type>CAP</Type>
+     <Value>100nF</Value>
+     <PosX>16.43</PosX>
+     <PosY>23.38</PosY>
+     <Rotate>90</Rotate>
+     <feederNumber>3</feederNumber>
+     <ComponentCode>5</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>C6</RefDes>
+     <Type>CAP</Type>
+     <Value>100nF</Value>
+     <PosX>22.01</PosX>
+     <PosY>23.38</PosY>
+     <Rotate>90</Rotate>
+     <feederNumber>3</feederNumber>
+     <ComponentCode>5</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>10K x 4</Value>
+     <PosX>20.55</PosX>
+     <PosY>37.2</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>7</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R2</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>10K x 4</Value>
+     <PosX>20.55</PosX>
+     <PosY>29</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>7</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R21</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>10K x 4</Value>
+     <PosX>25</PosX>
+     <PosY>37.2</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>7</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+
+</ComponentList>
+<BoardDefaults>
+  <Settings>
+    <BoardOffsetX>36.7</BoardOffsetX>
+    <BoardOffsetY>74.7</BoardOffsetY>
+    <FeedRate>35000</FeedRate>
+    <PCBThickness>1.6</PCBThickness>
+    <chipfeederms>1000</chipfeederms>
+  </Settings>
+</BoardDefaults>
+</pcbboard>

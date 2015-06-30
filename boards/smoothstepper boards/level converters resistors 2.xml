@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pcbboard>
+<ComponentList>
+ 
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>42.78</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>52.62</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>42.78</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>52.62</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>42.78</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>52.62</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>42.78</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>52.62</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>7.99</PosX>
+     <PosY>56.38</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>7.99</PosX>
+     <PosY>66.22</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>56.38</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>66.22</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>56.38</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>66.22</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>56.38</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>66.22</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>56.38</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>66.22</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>7.99</PosX>
+     <PosY>69.98</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>7.99</PosX>
+     <PosY>79.82</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>69.98</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>79.82</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>69.98</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>79.82</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>69.98</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>79.82</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>69.98</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>79.82</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>7.99</PosX>
+     <PosY>83.58</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>7.99</PosX>
+     <PosY>93.42</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>83.58</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>23.49</PosX>
+     <PosY>93.42</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>83.58</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>38.99</PosX>
+     <PosY>93.42</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>83.58</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>54.49</PosX>
+     <PosY>93.42</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R1</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>83.58</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+ <Component>
+     <RefDes>R6</RefDes>
+     <Type>CAY16-222J4LF</Type>
+     <Value>2K2 x 4</Value>
+     <PosX>69.99</PosX>
+     <PosY>93.42</PosY>
+     <Rotate>0</Rotate>
+     <feederNumber>8</feederNumber>
+     <ComponentCode>3</ComponentCode>
+   </Component>
+</ComponentList>
+<BoardDefaults>
+  <Settings>
+    <BoardOffsetX>42.1</BoardOffsetX>
+        <BoardOffsetY>75</BoardOffsetY>
+        <FeedRate>17000</FeedRate>
+        <PCBThickness>1.6</PCBThickness>
+    <chipfeederms>1000</chipfeederms>
+  </Settings>
+</BoardDefaults>
+</pcbboard>

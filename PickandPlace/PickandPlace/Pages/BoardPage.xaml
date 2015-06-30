@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="PickandPlace.Pages.BoardPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             xmlns:my="clr-namespace:PickandPlace.ImageButton"
+             xmlns:mz="clr-namespace:PickandPlace.ImageButtonBasic"
+             d:DesignHeight="600" d:DesignWidth="800">
+    <DockPanel LastChildFill="False">
+
+        <StackPanel    DockPanel.Dock="Top">
+          
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="64"/>
+                        <ColumnDefinition Width="64"/>
+                    <ColumnDefinition Width="64"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="ItemTitle" Text="View Loaded PCB" Style="{StaticResource Heading2}" Grid.Column="0" />
+                <TextBox x:Name="csfeeder" Text="20" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <mz:ImageButtonBasic Image="/Resources/appbar.cog.png" HorizontalAlignment="Right" VerticalAlignment="Top"
+                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="View Loaded PCB" x:Name="bt_ViewPCB"    Grid.Column="3" Click="bt_ViewPCB_Click" />
+             
+                <mz:ImageButtonBasic Image="/Resources/appbar.disk.png" HorizontalAlignment="Right" VerticalAlignment="Top"
+                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="Save PCB File" x:Name="bt_Save"    Grid.Column="2" Click="bt_Save_Click"/>
+                <mz:ImageButtonBasic Image="/Resources/appbar.folder.open.png" HorizontalAlignment="Right" VerticalAlignment="Top"
+                        ImageWidth="64" ImageHeight="64" Margin="0"  ToolTip="Load PCB File" x:Name="bt_Load"    Grid.Column="1" Click="bt_Load_Click" />
+                </Grid>
+        <Label x:Name="lblInfo" />
+            <Label x:Name="lblActive" />
+        </StackPanel >
+      
+
+
+
+        <Grid  DockPanel.Dock="Bottom" Height="130" MinHeight="130">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+                    <my:ImageButton Image="/Resources/appbar.control.play.png" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        ImageWidth="76" ImageHeight="76" Margin="10" Text="Start"  ToolTip="Start" x:Name="bt_Start"    Grid.Column="0" Click="bt_Start_Click" />
+                    <my:ImageButton Image="/Resources/appbar.control.stop.png" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        ImageWidth="76" ImageHeight="76" Margin="10" Text="Stop"  ToolTip="Stop" x:Name="bt_Stop"    Grid.Column="1" Click="bt_Stop_Click" />
+           
+                    <my:ImageButton Image="/Resources/appbar.home.png" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        ImageWidth="76" ImageHeight="76" Margin="10" Text="Home"  ToolTip="Home" x:Name="bt_Home"    Grid.Column="2"  Click="bt_HomeAll_Click" />
+            <my:ImageButton Image="/Resources/appbar.section.expand.all.png" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        ImageWidth="76" ImageHeight="76" Margin="10" Text="Check All"  ToolTip="Toggle Selection" x:Name="bt_CheckAll"    Grid.Column="3" Click="bt_CheckAll_Click" />
+            <my:ImageButton Image="/Resources/appbar.section.collapse.all.png" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        ImageWidth="76" ImageHeight="76" Margin="10" Text="Uncheck All"  ToolTip="Toggle Selection" x:Name="bt_UnCheckAll"    Grid.Column="4" Click="bt_UnCheckAll_Click" />
+            <my:ImageButton Image="/Resources/appbar.cog.png" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        ImageWidth="76" ImageHeight="76" Margin="10" Text="Chip Feeder"  ToolTip="Activate Chip Feeder" x:Name="bt_ChipFeeder"    Grid.Column="5" Click="bt_ChipFeeder_Click" />
+            <my:ImageButton Image="/Resources/appbar.sign.stop.png" HorizontalAlignment="Left" VerticalAlignment="Top"
+                        ImageWidth="76" ImageHeight="76" Margin="10" Text="E-Stop"  ToolTip="E-Stop" x:Name="bt_eStop"    Grid.Column="6" Click="bt_eStop_Click" />
+        </Grid>
+
+        <ScrollViewer>
+
+            <DataGrid x:Name="_dgComponents"  AutoGenerateColumns="false" CanUserSortColumns="False" CanUserAddRows="False" CanUserDeleteRows="True" Width="Auto"  Margin="5" SelectionChanged="_dgComponents_SelectionChanged"  IsSynchronizedWithCurrentItem="True"/>
+
+        </ScrollViewer>
+    </DockPanel>
+   
+</UserControl>

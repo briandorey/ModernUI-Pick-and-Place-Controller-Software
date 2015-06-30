@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pcbboard>
+<ComponentList>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>5.54</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>8.71</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>5.54</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>8.71</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>38.81</PosX>
+      <PosY>5.54</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>38.81</PosX>
+      <PosY>8.71</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>54.31</PosX>
+      <PosY>5.54</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>54.31</PosX>
+      <PosY>8.71</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>69.81</PosX>
+      <PosY>5.54</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>69.81</PosX>
+      <PosY>8.71</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>19.14</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>22.31</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>19.14</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>22.31</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>38.81</PosX>
+      <PosY>19.14</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>38.81</PosX>
+      <PosY>22.31</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>54.31</PosX>
+      <PosY>19.14</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>54.31</PosX>
+      <PosY>22.31</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>69.81</PosX>
+      <PosY>19.14</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>69.81</PosX>
+      <PosY>22.31</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>32.74</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>35.91</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>32.74</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>35.91</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>38.81</PosX>
+      <PosY>32.74</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>38.81</PosX>
+      <PosY>35.91</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>54.31</PosX>
+      <PosY>32.74</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>54.31</PosX>
+      <PosY>35.91</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>69.81</PosX>
+      <PosY>32.74</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>69.81</PosX>
+      <PosY>35.91</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>46.34</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>7.81</PosX>
+      <PosY>49.51</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U2</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>46.34</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+    </Component>
+  <Component>
+      <RefDes>U7</RefDes>
+      <Type>FDC6301N</Type>
+      <Value>Dual Mosfet</Value>
+      <PosX>23.31</PosX>
+      <PosY>49.51</PosY>
+      <Rotate>0</Rotate>
+      <feederNumber>1</feederNumber>
+      <ComponentCode>7</ComponentCode>
+   </Component>
+
+</ComponentList>
+<BoardDefaults>
+  <Settings>
+    <BoardOffsetX>42.1</BoardOffsetX>
+        <BoardOffsetY>74.7</BoardOffsetY>
+        <FeedRate>17000</FeedRate>
+        <PCBThickness>1.6</PCBThickness>
+    <chipfeederms>1000</chipfeederms>
+  </Settings>
+</BoardDefaults>
+</pcbboard>

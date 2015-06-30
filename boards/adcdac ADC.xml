@@ -1,0 +1,267 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BoardInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BoardName" type="xs:string" minOccurs="0" />
+                <xs:element name="BoardHeight" type="xs:double" minOccurs="0" />
+                <xs:element name="MotorRunTime" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Components">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ComponentCode" type="xs:int" minOccurs="0" />
+                <xs:element name="ComponentName" type="xs:string" minOccurs="0" />
+                <xs:element name="PlacementX" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementY" type="xs:double" minOccurs="0" />
+                <xs:element name="PlacementRotate" type="xs:int" minOccurs="0" />
+                <xs:element name="PlacementNozzle" type="xs:int" minOccurs="0" />
+                <xs:element name="Pick" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BoardInfo>
+    <BoardName>ADC DAC</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>ADC DAC</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u26 - MCP3202-ADC</ComponentName>
+    <PlacementX>28.6147545231726</PlacementX>
+    <PlacementY>111.415516735673</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u27 - MCP3202-ADC</ComponentName>
+    <PlacementX>28.6147545231726</PlacementX>
+    <PlacementY>146.241517151342</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u28 - MCP3202-ADC</ComponentName>
+    <PlacementX>28.6147545231726</PlacementX>
+    <PlacementY>180.827617505598</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u29 - MCP3202-ADC</ComponentName>
+    <PlacementX>28.6147545231726</PlacementX>
+    <PlacementY>215.676468635229</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u30 - MCP3202-ADC</ComponentName>
+    <PlacementX>28.8067202133251</PlacementX>
+    <PlacementY>250.522422888677</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u31 - MCP3202-ADC</ComponentName>
+    <PlacementX>53.1912461196767</PlacementX>
+    <PlacementY>111.316050204492</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u32 - MCP3202-ADC</ComponentName>
+    <PlacementX>53.1912461196767</PlacementX>
+    <PlacementY>146.257817479122</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u33 - MCP3202-ADC</ComponentName>
+    <PlacementX>53.1912461196767</PlacementX>
+    <PlacementY>180.885187545868</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u34 - MCP3202-ADC</ComponentName>
+    <PlacementX>53.3365855698006</PlacementX>
+    <PlacementY>215.539688709202</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u35 - MCP3202-ADC</ComponentName>
+    <PlacementX>53.3365855698006</PlacementX>
+    <PlacementY>250.396538741751</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u36 - MCP3202-ADC</ComponentName>
+    <PlacementX>77.671124787973</PlacementX>
+    <PlacementY>111.393833419232</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u37 - MCP3202-ADC</ComponentName>
+    <PlacementX>77.671124787973</PlacementX>
+    <PlacementY>146.288126553069</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u38 - MCP3202-ADC</ComponentName>
+    <PlacementX>77.671124787973</PlacementX>
+    <PlacementY>180.820007805264</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u39 - MCP3202-ADC</ComponentName>
+    <PlacementX>77.8343166269061</PlacementX>
+    <PlacementY>215.534954183841</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u40 - MCP3202-ADC</ComponentName>
+    <PlacementX>77.8343166269061</PlacementX>
+    <PlacementY>250.375244362563</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u41 - MCP3202-ADC</ComponentName>
+    <PlacementX>102.121126954005</PlacementX>
+    <PlacementY>111.377187204555</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u42 - MCP3202-ADC</ComponentName>
+    <PlacementX>102.176994430445</PlacementX>
+    <PlacementY>146.233864216921</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u43 - MCP3202-ADC</ComponentName>
+    <PlacementX>102.224093233309</PlacementX>
+    <PlacementY>181.027674744389</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u44 - MCP3202-ADC</ComponentName>
+    <PlacementX>102.241998129128</PlacementX>
+    <PlacementY>215.65666612334</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u45 - MCP3202-ADC</ComponentName>
+    <PlacementX>102.418264218207</PlacementX>
+    <PlacementY>250.522920112321</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u46 - MCP3202-ADC</ComponentName>
+    <PlacementX>126.626629047754</PlacementX>
+    <PlacementY>111.274607606982</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u47 - MCP3202-ADC</ComponentName>
+    <PlacementX>126.626629047754</PlacementX>
+    <PlacementY>146.161917978522</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u48 - MCP3202-ADC</ComponentName>
+    <PlacementX>126.626629047754</PlacementX>
+    <PlacementY>180.928186586916</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u49 - MCP3202-ADC</ComponentName>
+    <PlacementX>126.791553618989</PlacementX>
+    <PlacementY>215.566538761234</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>108</ComponentCode>
+    <ComponentName>u50 - MCP3202-ADC</ComponentName>
+    <PlacementX>126.791553618989</PlacementX>
+    <PlacementY>250.471641124134</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>2</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+</NewDataSet>
