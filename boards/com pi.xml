@@ -38,7 +38,7 @@
     <ComponentCode>7</ComponentCode>
     <ComponentName>u1 - Dual Mosfet</ComponentName>
     <PlacementX>62.2</PlacementX>
-    <PlacementY>103.9</PlacementY>
+    <PlacementY>104.1</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -109,8 +109,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r2 - 2K2x4</ComponentName>
-    <PlacementX>58.3</PlacementX>
-    <PlacementY>104.1</PlacementY>
+    <PlacementX>58.2</PlacementX>
+    <PlacementY>104.3</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -118,7 +118,7 @@
   <Components>
     <ComponentCode>103</ComponentCode>
     <ComponentName>u2 - MAX3232EID</ComponentName>
-    <PlacementX>48.5</PlacementX>
+    <PlacementX>48</PlacementX>
     <PlacementY>101.6</PlacementY>
     <PlacementRotate>180</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
@@ -128,7 +128,7 @@
     <ComponentCode>104</ComponentCode>
     <ComponentName>u3 - DS2482S</ComponentName>
     <PlacementX>39</PlacementX>
-    <PlacementY>100.1</PlacementY>
+    <PlacementY>100.6</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
@@ -137,7 +137,7 @@
     <ComponentCode>105</ComponentCode>
     <ComponentName>u4 - DS9503</ComponentName>
     <PlacementX>27</PlacementX>
-    <PlacementY>107.6</PlacementY>
+    <PlacementY>108.7</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>

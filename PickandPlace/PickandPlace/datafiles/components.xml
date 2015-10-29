@@ -57,7 +57,7 @@
     <ComponentValue>10Kx4</ComponentValue>
     <Package>1206</Package>
     <PlacementHeight>35.066</PlacementHeight>
-    <FeederHeight>32.548</FeederHeight>
+    <FeederHeight>32.5</FeederHeight>
     <FeederX>150.08</FeederX>
     <FeederY>15.74</FeederY>
     <PickerNozzle>1</PickerNozzle>
@@ -70,7 +70,7 @@
     <ComponentValue>100nF</ComponentValue>
     <Package>0805</Package>
     <PlacementHeight>34.5</PlacementHeight>
-    <FeederHeight>32.0</FeederHeight>
+    <FeederHeight>31.7</FeederHeight>
     <FeederX>70.2</FeederX>
     <FeederY>15.8</FeederY>
     <PickerNozzle>1</PickerNozzle>
@@ -96,7 +96,7 @@
     <ComponentValue>Dual Mosfet</ComponentValue>
     <Package>0805</Package>
     <PlacementHeight>34.7</PlacementHeight>
-    <FeederHeight>31.5</FeederHeight>
+    <FeederHeight>31.7</FeederHeight>
     <FeederX>30.55</FeederX>
     <FeederY>15.98</FeederY>
     <PickerNozzle>1</PickerNozzle>
@@ -164,7 +164,7 @@
     <PlacementHeight>34.392</PlacementHeight>
     <FeederHeight>25.800</FeederHeight>
     <FeederX>28.751</FeederX>
-    <FeederY>393.081</FeederY>
+    <FeederY>394.5</FeederY>
     <PickerNozzle>2</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>false</TapeFeeder>
@@ -217,7 +217,7 @@
     <PlacementHeight>34.121</PlacementHeight>
     <FeederHeight>25.455</FeederHeight>
     <FeederX>168.317</FeederX>
-    <FeederY>392.833</FeederY>
+    <FeederY>394.0</FeederY>
     <PickerNozzle>2</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>false</TapeFeeder>
@@ -231,7 +231,7 @@
     <PlacementHeight>34</PlacementHeight>
     <FeederHeight>25.5</FeederHeight>
     <FeederX>55.57</FeederX>
-    <FeederY>388.82</FeederY>
+    <FeederY>389.5</FeederY>
     <PickerNozzle>2</PickerNozzle>
     <VerifywithCamera>false</VerifywithCamera>
     <TapeFeeder>false</TapeFeeder>

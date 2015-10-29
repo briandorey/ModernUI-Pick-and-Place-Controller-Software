@@ -215,6 +215,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="appbar.cog.ico" />
+    <Content Include="Resources\app-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\down.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

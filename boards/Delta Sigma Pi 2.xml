@@ -38,7 +38,7 @@
     <ComponentCode>7</ComponentCode>
     <ComponentName>U1 - Dual Mosfet</ComponentName>
     <PlacementX>48.8</PlacementX>
-    <PlacementY>91.9</PlacementY>
+    <PlacementY>92.2</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -82,7 +82,7 @@
   <Components>
     <ComponentCode>4</ComponentCode>
     <ComponentName>R1 - 10Kx4</ComponentName>
-    <PlacementX>48.3</PlacementX>
+    <PlacementX>48.2</PlacementX>
     <PlacementY>95.9</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
@@ -92,7 +92,7 @@
     <ComponentCode>100</ComponentCode>
     <ComponentName>U2 - MCP3424</ComponentName>
     <PlacementX>36.5</PlacementX>
-    <PlacementY>99</PlacementY>
+    <PlacementY>98.5</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
@@ -101,7 +101,7 @@
     <ComponentCode>100</ComponentCode>
     <ComponentName>U3 - MCP3424</ComponentName>
     <PlacementX>25.7</PlacementX>
-    <PlacementY>99</PlacementY>
+    <PlacementY>98.5</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
