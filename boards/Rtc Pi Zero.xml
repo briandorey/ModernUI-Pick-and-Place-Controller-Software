@@ -30,52 +30,52 @@
     </xs:element>
   </xs:schema>
   <BoardInfo>
-    <BoardName>test</BoardName>
+    <BoardName>RTCPiZerp</BoardName>
     <BoardHeight>1.6</BoardHeight>
     <MotorRunTime>20</MotorRunTime>
   </BoardInfo>
   <Components>
-    <ComponentCode>11</ComponentCode>
-    <ComponentName>d1 - Diode</ComponentName>
-    <PlacementX>78.852427557382</PlacementX>
-    <PlacementY>144.112984963973</PlacementY>
+    <ComponentCode>7</ComponentCode>
+    <ComponentName>u1 - Dual Mosfet</ComponentName>
+    <PlacementX>35.8</PlacementX>
+    <PlacementY>95.6</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>11</ComponentCode>
-    <ComponentName>d1 - Diode</ComponentName>
-    <PlacementX>74</PlacementX>
-    <PlacementY>144.112984963973</PlacementY>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c1 - 100nF</ComponentName>
+    <PlacementX>23.1</PlacementX>
+    <PlacementY>95.4</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>11</ComponentCode>
-    <ComponentName>d1 - Diode</ComponentName>
-    <PlacementX>76</PlacementX>
-    <PlacementY>144.112984963973</PlacementY>
+    <ComponentCode>2</ComponentCode>
+    <ComponentName>r1 - 10K</ComponentName>
+    <PlacementX>25.1</PlacementX>
+    <PlacementY>92.6</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>100</ComponentCode>
-    <ComponentName>s1 - MCP3424</ComponentName>
-    <PlacementX>151.918581171275</PlacementX>
-    <PlacementY>119.436592590268</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
-    <PlacementNozzle>2</PlacementNozzle>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r2 - 10Kx4</ComponentName>
+    <PlacementX>36</PlacementX>
+    <PlacementY>100.5</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>100</ComponentCode>
-    <ComponentName>s1 - MCP3424</ComponentName>
-    <PlacementX>121.117959207921</PlacementX>
-    <PlacementY>119.436592590268</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
+    <ComponentCode>102</ComponentCode>
+    <ComponentName>u2 - DS1307Z</ComponentName>
+    <PlacementX>29.3</PlacementX>
+    <PlacementY>97.9</PlacementY>
+    <PlacementRotate>-90</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>
   </Components>

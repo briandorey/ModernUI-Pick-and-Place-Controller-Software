@@ -30,78 +30,96 @@
     </xs:element>
   </xs:schema>
   <BoardInfo>
-    <BoardName>IO Pi Plus</BoardName>
+    <BoardName>Servo Pi Zero</BoardName>
     <BoardHeight>1.6</BoardHeight>
-    <MotorRunTime>25</MotorRunTime>
+    <MotorRunTime>20</MotorRunTime>
   </BoardInfo>
   <Components>
     <ComponentCode>7</ComponentCode>
-    <ComponentName>U1 - Dual Mosfet</ComponentName>
-    <PlacementX>61.3</PlacementX>
-    <PlacementY>98.4</PlacementY>
+    <ComponentName>u1 - Dual Mosfet</ComponentName>
+    <PlacementX>30.4</PlacementX>
+    <PlacementY>91.7</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
     <ComponentCode>5</ComponentCode>
-    <ComponentName>C1 - 100nF</ComponentName>
-    <PlacementX>45.6</PlacementX>
-    <PlacementY>103.4</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
-    <PlacementNozzle>1</PlacementNozzle>
-    <Pick>true</Pick>
-  </Components>
-  <Components>
-    <ComponentCode>5</ComponentCode>
-    <ComponentName>C2 - 100nF</ComponentName>
-    <PlacementX>41.7</PlacementX>
-    <PlacementY>113</PlacementY>
-    <PlacementRotate>90</PlacementRotate>
-    <PlacementNozzle>1</PlacementNozzle>
-    <Pick>true</Pick>
-  </Components>
-  <Components>
-    <ComponentCode>4</ComponentCode>
-    <ComponentName>R1 - 10Kx4</ComponentName>
-    <PlacementX>59.3</PlacementX>
-    <PlacementY>125.4</PlacementY>
+    <ComponentName>c1 - 100nF</ComponentName>
+    <PlacementX>55.6</PlacementX>
+    <PlacementY>89.4</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>4</ComponentCode>
-    <ComponentName>R2 - 10Kx4</ComponentName>
-    <PlacementX>50.4</PlacementX>
-    <PlacementY>125.4</PlacementY>
-    <PlacementRotate>0</PlacementRotate>
-    <PlacementNozzle>1</PlacementNozzle>
-    <Pick>true</Pick>
-  </Components>
-  <Components>
-    <ComponentCode>4</ComponentCode>
-    <ComponentName>R3 - 10Kx4</ComponentName>
-    <PlacementX>61.4</PlacementX>
-    <PlacementY>104.3</PlacementY>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r7 - 220x4</ComponentName>
+    <PlacementX>56.4</PlacementX>
+    <PlacementY>94.1</PlacementY>
     <PlacementRotate>90</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>106</ComponentCode>
-    <ComponentName>IC1 - MCP23017</ComponentName>
-    <PlacementX>38.3</PlacementX>
-    <PlacementY>103.4</PlacementY>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r6 - 220x4</ComponentName>
+    <PlacementX>56.4</PlacementX>
+    <PlacementY>97.7</PlacementY>
     <PlacementRotate>90</PlacementRotate>
-    <PlacementNozzle>2</PlacementNozzle>
+    <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
   <Components>
-    <ComponentCode>106</ComponentCode>
-    <ComponentName>IC2 - MCP23017</ComponentName>
-    <PlacementX>35</PlacementX>
-    <PlacementY>114.4</PlacementY>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r5 - 220x4</ComponentName>
+    <PlacementX>41.5</PlacementX>
+    <PlacementY>97.7</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>12</ComponentCode>
+    <ComponentName>r4 - 220x4</ComponentName>
+    <PlacementX>41.5</PlacementX>
+    <PlacementY>94.1</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r1 - 10Kx4</ComponentName>
+    <PlacementX>29.4</PlacementX>
+    <PlacementY>95.75</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r2 - 10Kx4</ComponentName>
+    <PlacementX>66.4</PlacementX>
+    <PlacementY>94.03</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r3 - 10Kx4</ComponentName>
+    <PlacementX>66.4</PlacementX>
+    <PlacementY>97.7</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>107</ComponentCode>
+    <ComponentName>u2 - PCA9685PW</ComponentName>
+    <PlacementX>48.7</PlacementX>
+    <PlacementY>94.1</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>2</PlacementNozzle>
     <Pick>true</Pick>

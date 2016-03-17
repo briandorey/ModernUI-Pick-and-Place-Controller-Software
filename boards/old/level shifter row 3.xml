@@ -30,15 +30,23 @@
     </xs:element>
   </xs:schema>
   <BoardInfo>
-    <BoardName>LLS-r1</BoardName>
+    <BoardName>r2b</BoardName>
     <BoardHeight>1.6</BoardHeight>
     <MotorRunTime>25</MotorRunTime>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>level shifter r3</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>level shifter r3</BoardName>
+    <BoardHeight>1.6</BoardHeight>
   </BoardInfo>
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u1 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>87.4076320330689</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>87.6581899962889</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -46,8 +54,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u2 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>90.6005921867211</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>90.7695187706332</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -55,8 +63,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u3 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>101.169209102729</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>101.203020446058</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -64,8 +72,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u4 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>104.198539054764</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>104.384176920117</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -73,8 +81,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u5 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>114.656577543113</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>114.804296627772</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -82,8 +90,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u6 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>117.943253724799</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>118.008368670552</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -91,8 +99,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u7 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>128.461002472295</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>128.560771881791</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -100,8 +108,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u8 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>131.586794067419</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>131.784516653632</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -109,8 +117,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u9 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>142.094122717166</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>142.214451282959</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -118,8 +126,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u10 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>145.065839470147</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>145.247088929555</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -127,8 +135,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u11 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>155.668224493018</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>155.734204458902</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -136,8 +144,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u12 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>158.878457726699</PlacementY>
+    <PlacementX>60.8489234342473</PlacementX>
+    <PlacementY>158.860774248292</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -145,8 +153,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u13 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>169.352234524381</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>169.2821695855</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -154,8 +162,8 @@
   <Components>
     <ComponentCode>7</ComponentCode>
     <ComponentName>u14 - Dual Mosfet</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>172.53036441358</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>172.391228562434</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -163,8 +171,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r14 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>175.957344408008</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>176.3</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -172,8 +180,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r13 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>165.777319259146</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>164.2</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -181,8 +189,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r12 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>161.965055051614</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>162.5</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -190,8 +198,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r11 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>152.046980795382</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>152.6</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -199,8 +207,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r10 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>148.32261725082</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>148.8</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -208,8 +216,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r9 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>138.373650284238</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>138.9</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -217,8 +225,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r8 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>134.677542067798</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>135</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -226,8 +234,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r7 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>124.705810861554</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>125.2</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -235,8 +243,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r6 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>120.877830244165</PlacementY>
+    <PlacementX>60.9834464371646</PlacementX>
+    <PlacementY>121.4</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -244,8 +252,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r5 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>111.043051988743</PlacementY>
+    <PlacementX>60.9199654406916</PlacementX>
+    <PlacementY>111.6</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -253,8 +261,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r4 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>107.272576407266</PlacementY>
+    <PlacementX>60.9199654406916</PlacementX>
+    <PlacementY>107.7</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -262,8 +270,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r3 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>97.4889473600362</PlacementY>
+    <PlacementX>60.7981493091455</PlacementX>
+    <PlacementY>98.1</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -271,8 +279,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r2 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>93.8813020269058</PlacementY>
+    <PlacementX>60.7981493091455</PlacementX>
+    <PlacementY>94.1</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
@@ -280,8 +288,8 @@
   <Components>
     <ComponentCode>3</ComponentCode>
     <ComponentName>r1 - 2K2x4</ComponentName>
-    <PlacementX>29.9165610736098</PlacementX>
-    <PlacementY>83.9875702283484</PlacementY>
+    <PlacementX>60.7981493091455</PlacementX>
+    <PlacementY>84.2</PlacementY>
     <PlacementRotate>0</PlacementRotate>
     <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>

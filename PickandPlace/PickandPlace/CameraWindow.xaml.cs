@@ -70,7 +70,7 @@ namespace PickandPlace
             {
                 try
                 {
-                    capture = new Capture(1);
+                    capture = new Capture(0);
                 }
                 catch (Exception e)
                 {

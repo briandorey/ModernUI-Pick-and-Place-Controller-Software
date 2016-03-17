@@ -241,8 +241,8 @@
     <ComponentCode>107</ComponentCode>
     <ComponentValue>PCA9685PW</ComponentValue>
     <Package>TSSOP28</Package>
-    <PlacementHeight>34.5</PlacementHeight>
-    <FeederHeight>26.5</FeederHeight>
+    <PlacementHeight>34.8</PlacementHeight>
+    <FeederHeight>26.0</FeederHeight>
     <FeederX>84.5</FeederX>
     <FeederY>394.0</FeederY>
     <PickerNozzle>2</PickerNozzle>
@@ -254,7 +254,7 @@
     <ComponentCode>108</ComponentCode>
     <ComponentValue>MCP3202-ADC</ComponentValue>
     <Package>SOT8</Package>
-    <PlacementHeight>34.4</PlacementHeight>
+    <PlacementHeight>35.1</PlacementHeight>
     <FeederHeight>25.87</FeederHeight>
     <FeederX>139.66</FeederX>
     <FeederY>393.4</FeederY>

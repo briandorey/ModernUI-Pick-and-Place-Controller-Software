@@ -30,17 +30,58 @@
     </xs:element>
   </xs:schema>
   <BoardInfo>
-    <BoardName>test</BoardName>
+    <BoardName>IOPiZero</BoardName>
+    <BoardHeight>1.6</BoardHeight>
+    <MotorRunTime>20</MotorRunTime>
+  </BoardInfo>
+  <BoardInfo>
+    <BoardName>IOPiZero</BoardName>
     <BoardHeight>1.6</BoardHeight>
     <MotorRunTime>20</MotorRunTime>
   </BoardInfo>
   <Components>
+    <ComponentCode>7</ComponentCode>
+    <ComponentName>u1 - Dual Mosfet</ComponentName>
+    <PlacementX>36.5</PlacementX>
+    <PlacementY>98.6</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r2 - 10Kx4</ComponentName>
+    <PlacementX>36.5</PlacementX>
+    <PlacementY>103.8</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>4</ComponentCode>
+    <ComponentName>r1 - 10Kx4</ComponentName>
+    <PlacementX>28.5</PlacementX>
+    <PlacementY>102.3</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
+    <ComponentCode>5</ComponentCode>
+    <ComponentName>c1 - 100nF</ComponentName>
+    <PlacementX>38.4</PlacementX>
+    <PlacementY>122</PlacementY>
+    <PlacementRotate>90</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
+    <Pick>true</Pick>
+  </Components>
+  <Components>
     <ComponentCode>106</ComponentCode>
-    <ComponentName>ic2 - MCP23017</ComponentName>
-    <PlacementX>39.3695060050974</PlacementX>
-    <PlacementY>128.699670915138</PlacementY>
-    <PlacementRotate>180</PlacementRotate>
-    <PlacementNozzle>2</PlacementNozzle>
+    <ComponentName>u2 - MCP23017</ComponentName>
+    <PlacementX>31.7</PlacementX>
+    <PlacementY>122.1</PlacementY>
+    <PlacementRotate>0</PlacementRotate>
+    <PlacementNozzle>1</PlacementNozzle>
     <Pick>true</Pick>
   </Components>
 </NewDataSet>
